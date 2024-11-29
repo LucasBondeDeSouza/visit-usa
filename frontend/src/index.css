@@ -85,6 +85,28 @@ body {
   pointer-events: none;
 }
 
+/* Estilizar o contêiner das bolinhas */
+.slick-dots {
+  position: absolute !important;
+  bottom: 10% !important;
+  width: 100% !important;
+}
+
+/* Estilizar cada bolinha */
+.slick-dot {
+  width: 20px !important;
+  height: 20px !important;
+  margin: 0 6px !important;
+  background-color: rgba(187, 61, 61, 0.5) !important;
+  border-radius: 50% !important;
+  transition: background-color 0.3s ease !important;
+}
+
+/* Estilizar a bolinha ativa */
+.slick-dot.slick-active {
+  background-color: #ff5733 !important;
+}
+
 @keyframes brightness {
   0% {
     fill: #ba3a3a;
