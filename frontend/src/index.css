@@ -21,8 +21,12 @@ body {
   z-index: 999;
 }
 
-.hide-map {
-  transform: translateX(370px);
+.close-map {
+  animation: closeMap 1s forwards;
+}
+
+.open-map {
+  animation: openMap 1s forwards;
 }
 
 .map .toggle-map {
@@ -124,9 +128,27 @@ body {
   }
 }
 
+@keyframes closeMap {
+  0% {
+    width: 350px;
+  }
+  100% {
+    width: 0px;
+  }
+}
+
+@keyframes openMap {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 350px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hide-map {
-    transform: translateX(270px);
+    width: 0px;
   }
 
   .ag-canvas {
@@ -142,5 +164,23 @@ body {
 
   .tooltip {
     font-size: .6rem;
+  }
+
+  @keyframes closeMap {
+    0% {
+      width: 250px;
+    }
+    100% {
+      width: 0px;
+    }
+  }
+  
+  @keyframes openMap {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 250px;
+    }
   }
 }
