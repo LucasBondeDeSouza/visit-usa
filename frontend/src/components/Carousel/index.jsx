@@ -3,7 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import HollywoodImg from "../../public/images/hollywood.jpg";
+import FloridaImg from "../../public/images/florida.jpg";
+import NewYorkImg from "../../public/images/new-york.jpg";
+import California from "../../public/images/california.jpg";
 
 export default () => {
   const settings = {
@@ -18,49 +20,27 @@ export default () => {
 
   const slides = [
     {
-      image: "https://via.placeholder.com/800x400?text=Slide+1",
+      image: California,
+      city: "Califórnia",
+    },
+    {
+      image: FloridaImg,
+      city: "Flórida",
+    },
+    {
+      image: NewYorkImg,
       city: "New York",
-    },
-    {
-      image: "https://via.placeholder.com/800x400?text=Slide+2",
-      city: "Los Angeles",
-    },
-    {
-      image: "https://via.placeholder.com/800x400?text=Slide+3",
-      city: "Chicago",
-    },
-    {
-      image: HollywoodImg,
-      city: "Los Angeles, Califórnia",
     },
   ];
 
   return (
-    <div style={{ width: "100%", margin: "auto" }}>
+    <div className="carousel">
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} style={{ position: "relative" }}>
-            <img
-              src={slide.image}
-              alt={slide.city}
-              style={{ width: "100vw", height: "100vh", objectFit: "cover" }}
-            />
-            <div
-              style={{
-                position: "absolute",
-                bottom: "20%", // Ajuste a posição do texto
-                left: "50%",
-                transform: "translateX(-50%)",
-                backgroundColor: "rgba(0, 0, 0, 0.5)",
-                color: "white",
-                padding: "10px 20px",
-                borderRadius: "10px",
-                textAlign: "center",
-                fontSize: "24px",
-                whiteSpace: "nowrap",
-              }}
-            >
-              {slide.city}
+          <div key={index} className="carousel-slide">
+            <img className="carousel-image" src={slide.image} alt={slide.city} />
+            <div className="carousel-caption">
+                <h1>{slide.city}</h1>
             </div>
           </div>
         ))}

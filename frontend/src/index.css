@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
 }
 
+/* Start Map */
 .map {
   display: flex;
   align-items: center;
@@ -89,28 +90,6 @@ body {
   pointer-events: none;
 }
 
-/* Estilizar o contêiner das bolinhas */
-.slick-dots {
-  position: absolute !important;
-  bottom: 10% !important;
-  width: 100% !important;
-}
-
-/* Estilizar cada bolinha */
-.slick-dot {
-  width: 20px !important;
-  height: 20px !important;
-  margin: 0 6px !important;
-  background-color: rgba(187, 61, 61, 0.5) !important;
-  border-radius: 50% !important;
-  transition: background-color 0.3s ease !important;
-}
-
-/* Estilizar a bolinha ativa */
-.slick-dot.slick-active {
-  background-color: #ff5733 !important;
-}
-
 @keyframes brightness {
   0% {
     fill: #ba3a3a;
@@ -133,6 +112,7 @@ body {
     width: 350px;
     margin-right: 20px;
   }
+
   100% {
     width: 0px;
     margin-right: 0px;
@@ -144,13 +124,48 @@ body {
     width: 0px;
     margin-right: 0px;
   }
+
   100% {
     width: 350px;
     margin-right: 20px;
   }
 }
 
+/* End Map */
+
+/* Start Carousel */
+.carousel {
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-slide {
+  position: relative;
+}
+
+.carousel-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20%; /* Ajuste conforme necessário */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-caption h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+/* End Carousel */
+
 @media screen and (max-width: 768px) {
+
+  /* Start Map */
   .hide-map {
     width: 0px;
   }
@@ -175,20 +190,24 @@ body {
       width: 250px;
       margin-right: 20px;
     }
+
     100% {
       width: 0px;
       margin-right: 0px;
     }
   }
-  
+
   @keyframes openMap {
     0% {
       width: 0px;
       margin-right: 0px;
     }
+
     100% {
       width: 250px;
       margin-right: 20px;
     }
   }
+
+  /* End Map */
 }
