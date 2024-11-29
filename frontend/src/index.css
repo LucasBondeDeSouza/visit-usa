@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   position: absolute;
-  right: 20px;
+  right: 0px;
   bottom: 20px;
   transition: transform 0.5s ease-in-out;
   z-index: 999;
@@ -131,18 +131,22 @@ body {
 @keyframes closeMap {
   0% {
     width: 350px;
+    margin-right: 20px;
   }
   100% {
     width: 0px;
+    margin-right: 0px;
   }
 }
 
 @keyframes openMap {
   0% {
     width: 0px;
+    margin-right: 0px;
   }
   100% {
     width: 350px;
+    margin-right: 20px;
   }
 }
 
@@ -169,18 +173,22 @@ body {
   @keyframes closeMap {
     0% {
       width: 250px;
+      margin-right: 20px;
     }
     100% {
       width: 0px;
+      margin-right: 0px;
     }
   }
   
   @keyframes openMap {
     0% {
       width: 0px;
+      margin-right: 0px;
     }
     100% {
       width: 250px;
+      margin-right: 20px;
     }
   }
 }
