@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import FloridaImg from "../../public/images/florida.jpg";
 import NewYorkImg from "../../public/images/new-york.jpg";
 import California from "../../public/images/california.jpg";
+import NewYorkVideo from "../../public/video/new-york.mp4"
 
 export default () => {
   const settings = {
@@ -14,7 +15,7 @@ export default () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
   };
 
@@ -31,6 +32,10 @@ export default () => {
       image: NewYorkImg,
       city: "New York",
     },
+    {
+        video: NewYorkVideo,
+        city: "New York"
+    }
   ];
 
   return (
@@ -38,7 +43,8 @@ export default () => {
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="carousel-slide">
-            <img className="carousel-image" src={slide.image} alt={slide.city} />
+            {/*<img className="carousel-image" src={slide.image} alt={slide.city} />*/}
+            <video className="carousel-video" src={slide.video} autoPlay loop></video>
             <div className="carousel-caption">
                 <h1>{slide.city}</h1>
             </div>
