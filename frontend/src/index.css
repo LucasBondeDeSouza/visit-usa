@@ -153,13 +153,43 @@ body {
 .carousel-caption {
   position: absolute;
   bottom: 30%; /* Ajuste conforme necessário */
-  left: 25%;
-  transform: translateX(-50%);
+  left: 10%;
+  max-width: 500px;
 }
 
 .carousel-caption h1 {
   color: white;
   font-size: 3rem;
+}
+
+.carousel-caption p {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Personalização dos dots */
+.slick-dots {
+  position: absolute !important;
+  bottom: 10% !important; /* Ajuste conforme necessário */
+  left: 50% !important;
+  transform: translateX(-50%);
+}
+
+.slick-dots li button {
+  background-color: #c1c1c1 !important; /* Cor das bolinhas */
+  color: #fff !important;
+  border-radius: 50% !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fff !important; /* Cor das bolinhas ativas */
+}
+
+.slick-dots li button:before {
+  content: none !important;
 }
 
 /* End Carousel */
@@ -215,6 +245,10 @@ body {
   /* Start Carousel */
   .carousel-caption h1 {
     font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: .8rem
   }
   /* End Carousel */
 }
