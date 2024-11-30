@@ -149,13 +149,6 @@ body {
   object-fit: cover;
 }
 
-.carousel-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  filter: brightness(0.7); 
-}
-
 .carousel-caption {
   position: absolute;
   bottom: 20%; /* Ajuste conforme necessário */
