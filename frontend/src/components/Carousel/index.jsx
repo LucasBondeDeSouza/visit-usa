@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import FloridaImg from "../../public/images/florida.jpg";
+import FloridaImg from "../../public/images/florida.WEBP";
 import NewYorkImg from "../../public/images/new-york.jpg";
-import California from "../../public/images/california.jpg";
+import California from "../../public/images/california.WEBP";
 
 export default () => {
   const settings = {
