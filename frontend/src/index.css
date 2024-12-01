@@ -159,12 +159,12 @@ body {
 
 .carousel-caption h1 {
   color: white;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .carousel-caption p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 10px;
 }
 
@@ -244,11 +244,11 @@ body {
 
   /* Start Carousel */
   .carousel-caption h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .carousel-caption p {
-    font-size: .8rem
+    font-size: .9rem
   }
   /* End Carousel */
 }

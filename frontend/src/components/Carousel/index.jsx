@@ -3,8 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import FloridaImg from "../../public/images/florida.webp";
+import Florida from "../../public/images/florida.webp";
 import California from "../../public/images/california.webp";
+import NewYork from "../../public/images/new-york.webp";
 
 export default () => {
   const settings = {
@@ -24,9 +25,14 @@ export default () => {
       description: "Ponte Golden Gate, localizada em São Francisco.",
     },
     {
-      image: FloridaImg,
+      image: Florida,
       city: "Flórida",
       description: "Miami Beach, um dos destinos mais icônicos da Flórida",
+    },
+    {
+      image: NewYork,
+      city: "Nova York",
+      description: "Times Square, o coração vibrante da cidade que nunca dorme",
     },
   ];
 
