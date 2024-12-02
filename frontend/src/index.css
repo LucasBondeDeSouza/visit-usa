@@ -15,7 +15,7 @@ body {
 .map {
   display: flex;
   align-items: center;
-  position: absolute;
+  position: fixed;
   right: 0px;
   bottom: 20px;
   transition: transform 0.5s ease-in-out;
@@ -191,8 +191,79 @@ body {
 .slick-dots li button:before {
   content: none !important;
 }
-
 /* End Carousel */
+
+/* Start Main */
+main {
+  max-width: 1100px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.state {
+  min-height: 100vh;
+  margin: 30px 0;
+}
+
+.state .content h1 {
+  font-size: 4rem;
+}
+
+.state .content p {
+  font-size: 1.2rem;
+}
+
+/* Start Card */
+.state .cards {
+  display: flex;
+  flex-wrap: nowrap; /* Permite quebrar linhas */
+  gap: 20px;
+  overflow-x: scroll;
+  padding: 20px 10px;
+  margin-top: 30px;
+}
+
+.state .cards .card {
+  height: 430px;
+  min-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.state .cards .card .card-image {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.state .cards .card .card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.state .cards .card .card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.state .cards .card .card-description h2 {
+  font-size: 1.2rem;
+}
+
+.state .cards .card .card-description p {
+  text-indent: 20px;
+}
+/* End Card */
+
+/* End Main */
 
 @media screen and (max-width: 768px) {
 
@@ -251,4 +322,22 @@ body {
     font-size: .9rem
   }
   /* End Carousel */
+
+  /* Start Main */
+  .state .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .state .content p {
+    font-size: 1rem;
+  }
+
+  .state .cards .card .card-description h2 {
+    font-size: 1rem;
+  }
+
+  .state .cards .card .card-description p {
+    font-size: .9rem;
+  }
+  /* End Main */
 }
