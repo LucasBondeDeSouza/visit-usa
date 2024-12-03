@@ -1,17 +1,40 @@
 import Alabama1 from "../../public/images/alabama1.webp"
 import Alabama2 from "../../public/images/alabama2.png"
+import Alabama3 from "../../public/images/alabama3.jpg"
+import Alabama4 from "../../public/images/alabama4.jpg"
 
 import Alaska1 from "../../public/images/alaska1.png"
+import Alaska2 from "../../public/images/alaska2.jpg"
+import Alaska3 from "../../public/images/alaska3.jpg"
+import Alaska4 from "../../public/images/alaska4.jpg"
+import Alaska5 from "../../public/images/alaska5.jpg"
 
 import Arizona1 from "../../public/images/arizona1.webp"
+import Arizona2 from "../../public/images/arizona2.png"
+import Arizona3 from "../../public/images/arizona3.jpg"
+import Arizona4 from "../../public/images/arizona4.jpg"
+import Arizona5 from "../../public/images/arizona5.jpg"
 
 import Arkansas1 from "../../public/images/arkansas1.webp"
+import Arkansas2 from "../../public/images/arkansas2.jpg"
+import Arkansas3 from "../../public/images/arkansas3.jpg"
+import Arkansas4 from "../../public/images/arkansas4.jpg"
+import Arkansas5 from "../../public/images/arkansas5.jpg"
 
 import California1 from "../../public/images/california1.jpg"
+import California2 from "../../public/images/california2.jpg"
+import California3 from "../../public/images/california3.jpg"
+import California4 from "../../public/images/california4.jpg"
+import California5 from "../../public/images/california5.jpg"
 
 import Colorado1 from "../../public/images/colorado1.jpg"
+import Colorado2 from "../../public/images/colorado2.jpg"
+import Colorado3 from "../../public/images/colorado3.jpg"
+import Colorado4 from "../../public/images/colorado4.jpg"
+import Colorado5 from "../../public/images/colorado5.jpg"
 
 import Connecticut1 from "../../public/images/connecticut1.jpg"
+import Connecticut2 from "../../public/images/connecticut2.jpg"
 
 import Delaware1 from "../../public/images/delaware1.jpg"
 
@@ -104,8 +127,8 @@ const states = [
         cards: [
           { image: Alabama1, title: "USS Alabama Battleship", description: "Um navio de guerra histórico localizado no Memorial Park em Mobile, com exposições sobre a Segunda Guerra Mundial."},
           { image: Alabama2, title: "Gulf Shores Beach", description: "Praias paradisíacas com areia branca e águas cristalinas, perfeitas para relaxar e curtir a natureza."},
-          { image: "Alabama3", title: "Little River Canyon", description: "Uma impressionante reserva natural com cachoeiras e trilhas, ideal para quem ama aventura."},
-          { image: "Alabama3", title: "Huntsville Space Center", description: "Centro de ciência espacial que abriga o famoso foguete Saturn V, ícone da exploração espacial americana."},
+          { image: Alabama3, title: "Little River Canyon", description: "Uma impressionante reserva natural com cachoeiras e trilhas, ideal para quem ama aventura."},
+          { image: Alabama4, title: "Huntsville Space Center", description: "Centro de ciência espacial que abriga o famoso foguete Saturn V, ícone da exploração espacial americana."},
         ],
     },
     {
@@ -113,10 +136,10 @@ const states = [
         description: "O Alasca, o maior estado dos Estados Unidos em área, é conhecido por suas paisagens intocadas, vida selvagem abundante e fenômenos naturais únicos, como a aurora boreal. Uma terra de aventuras e beleza extrema, atrai visitantes de todo o mundo para explorar suas geleiras, montanhas e parques nacionais.",
         cards: [
           { image: Alaska1, title: "Denali National Park", description: "Lar do Monte Denali, o pico mais alto da América do Norte, oferece vistas espetaculares e vida selvagem diversificada."},
-          { image: "Alabama3", title: "Aurora Boreal", description: "Fenômeno natural fascinante que ilumina os céus do Alasca com cores vibrantes, especialmente visível no inverno."},
-          { image: "Alabama3", title: "Glacier Bay National Park", description: "Parque repleto de geleiras imponentes, fiordes e oportunidades para observação de baleias."},
-          { image: "Alabama3", title: "Inside Passage", description: "Uma rota costeira famosa por suas ilhas, águas calmas e vistas incríveis, ideal para cruzeiros e aventuras marítimas."},
-          { image: "Alabama3", title: "Kenai Fjords National Park", description: "Uma maravilha natural com geleiras deslumbrantes e uma rica biodiversidade marinha, incluindo focas e aves."},
+          { image: Alaska2, title: "Aurora Boreal", description: "Fenômeno natural fascinante que ilumina os céus do Alasca com cores vibrantes, especialmente visível no inverno."},
+          { image: Alaska3, title: "Glacier Bay National Park", description: "Parque repleto de geleiras imponentes, fiordes e oportunidades para observação de baleias."},
+          { image: Alaska4, title: "Inside Passage", description: "Uma rota costeira famosa por suas ilhas, águas calmas e vistas incríveis, ideal para cruzeiros e aventuras marítimas."},
+          { image: Alaska5, title: "Kenai Fjords National Park", description: "Uma maravilha natural com geleiras deslumbrantes e uma rica biodiversidade marinha, incluindo focas e aves."},
         ],
     },
     {
@@ -124,10 +147,10 @@ const states = [
         description: "O Arizona, conhecido por seu clima desértico e paisagens deslumbrantes, é o lar de formações geológicas icônicas, como o Grand Canyon. O estado oferece uma mistura única de cultura nativa americana, história do Velho Oeste e aventuras ao ar livre, com parques nacionais e reservas que encantam visitantes de todo o mundo.",
         cards: [
           { image: Arizona1, title: "Grand Canyon", description: "Uma das maravilhas naturais mais impressionantes do mundo, com vistas deslumbrantes e trilhas inesquecíveis."},
-          { image: "Alabama3", title: "Antelope Canyon", description: "Um canyon estreito famoso por suas formações rochosas onduladas e jogos de luz que criam uma experiência mágica."},
-          { image: "Alabama3", title: "Horseshoe Bend", description: "Um mirante espetacular onde o Rio Colorado forma uma curva em formato de ferradura no deserto."},
-          { image: "Alabama3", title: "Monument Valley", description: "Cenário icônico do Velho Oeste, com imponentes formações rochosas e um rico legado cultural navajo."},
-          { image: "Alabama3", title: "Saguaro National Park", description: "Um parque dedicado ao icônico cacto saguaro, com trilhas que mostram a beleza do deserto do Arizona."},
+          { image: Arizona2, title: "Antelope Canyon", description: "Um canyon estreito famoso por suas formações rochosas onduladas e jogos de luz que criam uma experiência mágica."},
+          { image: Arizona3, title: "Horseshoe Bend", description: "Um mirante espetacular onde o Rio Colorado forma uma curva em formato de ferradura no deserto."},
+          { image: Arizona4, title: "Monument Valley", description: "Cenário icônico do Velho Oeste, com imponentes formações rochosas e um rico legado cultural navajo."},
+          { image: Arizona5, title: "Saguaro National Park", description: "Um parque dedicado ao icônico cacto saguaro, com trilhas que mostram a beleza do deserto do Arizona."},
         ],
     },
     {
@@ -135,10 +158,10 @@ const states = [
         description: "Arkansas, conhecido como o 'Estado Natural', é famoso por suas paisagens diversificadas que incluem montanhas, florestas e rios cristalinos. Um destino perfeito para quem busca aventuras ao ar livre, o estado também oferece rica herança cultural, com história fascinante e hospitalidade sulista.",
         cards: [
           { image: Arkansas1, title: "Hot Springs National Park", description: "Famoso por suas águas termais naturais e arquitetura histórica, é um destino de relaxamento e exploração."},
-          { image: "Alabama3", title: "Ozark National Forest", description: "Uma vasta área de floresta com trilhas incríveis, cachoeiras e paisagens montanhosas de tirar o fôlego."},
-          { image: "Alabama3", title: "Crystal Bridges Museum", description: "Um museu de arte único cercado por natureza, com obras que celebram a cultura americana."},
-          { image: "Alabama3", title: "Buffalo National River", description: "Um rio cristalino perfeito para canoagem, pesca e camping, rodeado por paisagens intocadas."},
-          { image: "Alabama3", title: "Petit Jean State Park", description: "O parque estadual mais antigo de Arkansas, famoso por trilhas cênicas, cachoeiras e formações rochosas impressionantes."},
+          { image: Arkansas2, title: "Ozark National Forest", description: "Uma vasta área de floresta com trilhas incríveis, cachoeiras e paisagens montanhosas de tirar o fôlego."},
+          { image: Arkansas3, title: "Crystal Bridges Museum", description: "Um museu de arte único cercado por natureza, com obras que celebram a cultura americana."},
+          { image: Arkansas4, title: "Buffalo National River", description: "Um rio cristalino perfeito para canoagem, pesca e camping, rodeado por paisagens intocadas."},
+          { image: Arkansas5, title: "Petit Jean State Park", description: "O parque estadual mais antigo de Arkansas, famoso por trilhas cênicas, cachoeiras e formações rochosas impressionantes."},
         ],
     },
     {
@@ -146,10 +169,10 @@ const states = [
         description: "A Califórnia, o estado dourado, é conhecida por sua incrível diversidade natural e cultural. Desde as praias ensolaradas do Pacífico até as montanhas cobertas de neve e florestas gigantescas, o estado oferece atrações icônicas, cidades vibrantes e um legado que mistura inovação, arte e história.",
         cards: [
             { image: California1, title: "Yosemite National Park", description: "Famoso por suas majestosas cachoeiras, penhascos de granito e sequoias gigantes, é um paraíso para amantes da natureza."},
-            { image: "Alabama3", title: "Golden Gate Bridge", description: "Um dos marcos mais reconhecidos do mundo, conectando San Francisco a Marin County com vistas impressionantes."},
-            { image: "Alabama3", title: "Disneyland", description: "O lugar onde os sonhos se tornam realidade, um parque temático mágico para todas as idades."},
-            { image: "Alabama3", title: "Death Valley National Park", description: "Um deserto impressionante com paisagens extremas e recorde de temperaturas, perfeito para exploração única."},
-            { image: "Alabama3", title: "Hollywood", description: "O centro do entretenimento global, lar da Calçada da Fama, letreiro icônico e estúdios de cinema famosos."},
+            { image: California2, title: "Golden Gate Bridge", description: "Um dos marcos mais reconhecidos do mundo, conectando San Francisco a Marin County com vistas impressionantes."},
+            { image: California3, title: "Disneyland", description: "O lugar onde os sonhos se tornam realidade, um parque temático mágico para todas as idades."},
+            { image: California4, title: "Death Valley National Park", description: "Um deserto impressionante com paisagens extremas e recorde de temperaturas, perfeito para exploração única."},
+            { image: California5, title: "Hollywood", description: "O centro do entretenimento global, lar da Calçada da Fama, letreiro icônico e estúdios de cinema famosos."},
         ],
     },
     {
@@ -157,10 +180,10 @@ const states = [
         description: "O Colorado, conhecido por suas paisagens montanhosas espetaculares, é um destino para os amantes da natureza e aventuras ao ar livre. Com parques nacionais deslumbrantes, cidades históricas e resorts de esqui de classe mundial, o estado oferece uma combinação única de beleza natural e cultura rica.",
         cards: [
             { image: Colorado1, title: "Rocky Mountain National Park", description: "Montanhas majestosas, trilhas incríveis e vida selvagem abundante fazem deste parque um dos mais impressionantes dos EUA."},
-            { image: "Alabama3", title: "Garden of the Gods", description: "Formações rochosas vermelhas impressionantes que criam uma paisagem única e são perfeitas para trilhas e escaladas."},
-            { image: "Alabama3", title: "Aspen", description: "Uma charmosa cidade de montanha conhecida por seus resorts de esqui e belas paisagens, especialmente no outono."},
-            { image: "Alabama3", title: "Mesa Verde National Park", description: "Parque que preserva antigas habitações indígenas em penhascos, oferecendo um vislumbre fascinante da história."},
-            { image: "Alabama3", title: "Great Sand Dunes National Park", description: "Casa das maiores dunas de areia da América do Norte, um cenário único para explorar e se aventurar."},
+            { image: Colorado2, title: "Garden of the Gods", description: "Formações rochosas vermelhas impressionantes que criam uma paisagem única e são perfeitas para trilhas e escaladas."},
+            { image: Colorado3, title: "Aspen", description: "Uma charmosa cidade de montanha conhecida por seus resorts de esqui e belas paisagens, especialmente no outono."},
+            { image: Colorado4, title: "Mesa Verde National Park", description: "Parque que preserva antigas habitações indígenas em penhascos, oferecendo um vislumbre fascinante da história."},
+            { image: Colorado5, title: "Great Sand Dunes National Park", description: "Casa das maiores dunas de areia da América do Norte, um cenário único para explorar e se aventurar."},
         ],
     },
     {
@@ -168,7 +191,7 @@ const states = [
         description: "Connecticut, localizado na região da Nova Inglaterra, é um estado repleto de charme histórico e belezas naturais. Com cidades costeiras pitorescas, arquitetura colonial e uma rica herança cultural, o estado oferece uma combinação encantadora de tradições e modernidade.",
         cards: [
             { image: Connecticut1, title: "Mystic Seaport", description: "Um museu histórico à beira-mar que preserva a rica tradição marítima de Connecticut, com navios antigos e exposições interativas."},
-            { image: "Alabama3", title: "Mark Twain House & Museum", description: "Antiga residência do famoso autor Mark Twain, onde ele escreveu algumas de suas obras mais icônicas."},
+            { image: Connecticut2, title: "Mark Twain House & Museum", description: "Antiga residência do famoso autor Mark Twain, onde ele escreveu algumas de suas obras mais icônicas."},
             { image: "Alabama3", title: "Yale University", description: "Uma das universidades mais prestigiadas do mundo, com arquitetura deslumbrante e museus fascinantes."},
             { image: "Alabama3", title: "Gillette Castle State Park", description: "Um castelo único com vistas panorâmicas e trilhas cênicas, construído pelo excêntrico ator William Gillette."},
             { image: "Alabama3", title: "Thimble Islands", description: "Um arquipélago encantador na costa de Connecticut, ideal para passeios de barco e relaxamento."},
