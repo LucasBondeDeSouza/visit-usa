@@ -35,22 +35,52 @@ import Colorado5 from "../../public/images/colorado5.jpg"
 
 import Connecticut1 from "../../public/images/connecticut1.jpg"
 import Connecticut2 from "../../public/images/connecticut2.jpg"
+import Connecticut3 from "../../public/images/connecticut3.jpg"
 
 import Delaware1 from "../../public/images/delaware1.jpg"
+import Delaware2 from "../../public/images/delaware2.jpg"
+import Delaware3 from "../../public/images/delaware3.jpg"
+import Delaware4 from "../../public/images/delaware4.jpg"
 
-import Florida1 from "../../public/images/florida1.webp"
+import Florida1 from "../../public/images/florida1.jpg"
+import Florida2 from "../../public/images/florida2.jpg"
+import Florida3 from "../../public/images/florida3.jpg"
+import Florida4 from "../../public/images/florida4.jpg"
+import Florida5 from "../../public/images/florida5.jpg"
 
 import Georgia1 from "../../public/images/georgia1.jpg"
+import Georgia2 from "../../public/images/georgia2.webp"
+import Georgia3 from "../../public/images/georgia3.jpg"
+import Georgia4 from "../../public/images/georgia4.jpg"
+import Georgia5 from "../../public/images/georgia5.jpg"
 
 import Hawaii1 from "../../public/images/hawaii1.jpg"
+import Hawaii2 from "../../public/images/hawaii2.jpg"
+import Hawaii3 from "../../public/images/hawaii3.jpg"
+import Hawaii4 from "../../public/images/hawaii4.jpg"
+import Hawaii5 from "../../public/images/hawaii5.jpg"
 
 import Idaho1 from "../../public/images/idaho1.jpg"
+import Idaho2 from "../../public/images/idaho2.jpg"
+import Idaho3 from "../../public/images/idaho3.avif"
+import Idaho4 from "../../public/images/idaho4.jpg"
+import Idaho5 from "../../public/images/idaho5.jpg"
 
 import Illinois1 from "../../public/images/illinois1.jpg"
+import Illinois2 from "../../public/images/illinois2.jpg"
+import Illinois3 from "../../public/images/illinois3.jpg"
+import Illinois4 from "../../public/images/illinois4.jpg"
+import Illinois5 from "../../public/images/illinois5.jpg"
 
 import Iowa1 from "../../public/images/iowa1.jpg"
+import Iowa2 from "../../public/images/iowa2.jpg"
+import Iowa3 from "../../public/images/iowa3.jpg"
 
 import Kansas1 from "../../public/images/kansas1.jpg"
+import Kansas2 from "../../public/images/kansas2.jpg"
+import Kansas3 from "../../public/images/kansas3.jpg"
+import Kansas4 from "../../public/images/kansas4.jpg"
+import Kansas5 from "../../public/images/kansas5.jpg"
 
 import Kentucky1 from "../../public/images/kentucky1.jpg"
 
@@ -192,9 +222,7 @@ const states = [
         cards: [
             { image: Connecticut1, title: "Mystic Seaport", description: "Um museu histórico à beira-mar que preserva a rica tradição marítima de Connecticut, com navios antigos e exposições interativas."},
             { image: Connecticut2, title: "Mark Twain House & Museum", description: "Antiga residência do famoso autor Mark Twain, onde ele escreveu algumas de suas obras mais icônicas."},
-            { image: "Alabama3", title: "Yale University", description: "Uma das universidades mais prestigiadas do mundo, com arquitetura deslumbrante e museus fascinantes."},
-            { image: "Alabama3", title: "Gillette Castle State Park", description: "Um castelo único com vistas panorâmicas e trilhas cênicas, construído pelo excêntrico ator William Gillette."},
-            { image: "Alabama3", title: "Thimble Islands", description: "Um arquipélago encantador na costa de Connecticut, ideal para passeios de barco e relaxamento."},
+            { image: Connecticut3, title: "Thimble Islands", description: "Um arquipélago encantador na costa de Connecticut, ideal para passeios de barco e relaxamento."},
         ],
     },
     {
@@ -202,10 +230,9 @@ const states = [
         description: "Delaware, conhecido como o 'First State', é o menor estado dos Estados Unidos, mas possui uma rica história e uma costa deslumbrante. Famoso por suas praias, cidades históricas e sua importância como o primeiro estado a ratificar a Constituição dos EUA, Delaware oferece aos visitantes uma combinação única de charme costeiro, história e atividades ao ar livre.",
         cards: [
             { image: Delaware1, title: "Rehoboth Beach", description: "Uma das praias mais populares do estado, conhecida por sua areia dourada, ótimos restaurantes e vida noturna animada, ideal para férias à beira-mar."},
-            { image: "Delaware2", title: "Cape Henlopen State Park", description: "Um parque à beira-mar com trilhas, praias, observação de aves e um farol histórico, perfeito para atividades ao ar livre e relaxamento."},
-            { image: "Delaware3", title: "Dover", description: "A capital do estado, conhecida por seu centro histórico, o Delaware State Capitol e o Dover International Speedway, que recebe grandes eventos automobilísticos."},
-            { image: "Delaware4", title: "Winterthur Museum", description: "Um museu impressionante que exibe uma coleção de móveis e artefatos americanos do século XIX, situado em uma grande propriedade com belos jardins."},
-            { image: "Delaware5", title: "Nemours Mansion and Gardens", description: "Uma mansão histórica com jardins formais deslumbrantes, oferecendo uma visão da vida aristocrática no início do século XX."},
+            { image: Delaware2, title: "Cape Henlopen State Park", description: "Um parque à beira-mar com trilhas, praias, observação de aves e um farol histórico, perfeito para atividades ao ar livre e relaxamento."},
+            { image: Delaware3, title: "Winterthur Museum", description: "Um museu impressionante que exibe uma coleção de móveis e artefatos americanos do século XIX, situado em uma grande propriedade com belos jardins."},
+            { image: Delaware4, title: "Nemours Mansion and Gardens", description: "Uma mansão histórica com jardins formais deslumbrantes, oferecendo uma visão da vida aristocrática no início do século XX."},
         ],
     },
     {
@@ -213,10 +240,10 @@ const states = [
         description: "A Flórida, conhecida como o 'Sunshine State', é famosa por suas praias ensolaradas, parques temáticos de renome mundial e rica vida selvagem. Com uma cultura vibrante e atrações que agradam a todas as idades, o estado é um dos destinos turísticos mais populares do mundo.",
         cards: [
             { image: Florida1, title: "Walt Disney World", description: "O maior e mais mágico complexo de parques temáticos do mundo, oferecendo diversão para toda a família."},
-            { image: "Alabama3", title: "Everglades National Park", description: "Um ecossistema único repleto de pântanos, crocodilos e uma rica biodiversidade para explorar."},
-            { image: "Alabama3", title: "Miami Beach", description: "Conhecida por suas praias deslumbrantes, vida noturna vibrante e o charme art déco de South Beach."},
-            { image: "Alabama3", title: "Florida Keys", description: "Um arquipélago tropical perfeito para mergulho, pesca e relaxamento em paisagens paradisíacas."},
-            { image: "Alabama3", title: "Kennedy Space Center", description: "Um centro espacial onde visitantes podem aprender sobre a exploração espacial e assistir a lançamentos de foguetes."},
+            { image: Florida2, title: "Everglades National Park", description: "Um ecossistema único repleto de pântanos, crocodilos e uma rica biodiversidade para explorar."},
+            { image: Florida3, title: "Miami Beach", description: "Conhecida por suas praias deslumbrantes, vida noturna vibrante e o charme art déco de South Beach."},
+            { image: Florida4, title: "Florida Keys", description: "Um arquipélago tropical perfeito para mergulho, pesca e relaxamento em paisagens paradisíacas."},
+            { image: Florida5, title: "Kennedy Space Center", description: "Um centro espacial onde visitantes podem aprender sobre a exploração espacial e assistir a lançamentos de foguetes."},
         ],
     },
     {
@@ -224,10 +251,10 @@ const states = [
         description: "A Geórgia, conhecida como o 'Peach State', combina charme sulista, história rica e belezas naturais deslumbrantes. Desde suas montanhas majestosas até cidades vibrantes como Atlanta, o estado oferece uma mistura única de cultura, inovação e hospitalidade.",
         cards: [
             { image: Georgia1, title: "Savannah", description: "Uma cidade histórica encantadora, com praças pitorescas, arquitetura colonial e ruas arborizadas."},
-            { image: "Alabama3", title: "Stone Mountain Park", description: "Um parque com a maior escultura de baixo-relevo do mundo, trilhas para caminhada e atividades ao ar livre."},
-            { image: "Alabama3", title: "Georgia Aquarium", description: "Um dos maiores aquários do mundo, lar de milhares de espécies marinhas e experiências interativas."},
-            { image: "Alabama3", title: "Blue Ridge Mountains", description: "Montanhas deslumbrantes perfeitas para trilhas, camping e aproveitar o ar puro do interior da Geórgia."},
-            { image: "Alabama3", title: "World of Coca-Cola", description: "Uma atração em Atlanta dedicada à história da Coca-Cola, com exposições interativas e degustações."},
+            { image: Georgia2, title: "Stone Mountain Park", description: "Um parque com a maior escultura de baixo-relevo do mundo, trilhas para caminhada e atividades ao ar livre."},
+            { image: Georgia3, title: "Georgia Aquarium", description: "Um dos maiores aquários do mundo, lar de milhares de espécies marinhas e experiências interativas."},
+            { image: Georgia4, title: "Blue Ridge Mountains", description: "Montanhas deslumbrantes perfeitas para trilhas, camping e aproveitar o ar puro do interior da Geórgia."},
+            { image: Georgia5, title: "World of Coca-Cola", description: "Uma atração em Atlanta dedicada à história da Coca-Cola, com exposições interativas e degustações."},
         ],
     },
     {
@@ -235,10 +262,10 @@ const states = [
         description: "O Hawaii, conhecido como o 'Aloha State', é um paraíso tropical com praias de areias douradas, vulcões ativos e uma cultura rica influenciada pela tradição polinésia. Com suas ilhas deslumbrantes e paisagens únicas, oferece um destino dos sonhos para aventureiros e relaxantes.",
         cards: [
             { image: Hawaii1, title: "Waikiki Beach", description: "Uma das praias mais famosas do mundo, com águas cristalinas e vistas deslumbrantes do Diamond Head."},
-            { image: "Hawaii2", title: "Haleakalā National Park", description: "Lar de um vulcão ativo, este parque oferece uma experiência única de amanhecer e trilhas por paisagens surreais."},
-            { image: "Hawaii3", title: "Pearl Harbor", description: "Um memorial histórico dedicado ao ataque de 1941, incluindo o USS Arizona Memorial e o Museu Pearl Harbor."},
-            { image: "Hawaii4", title: "Na Pali Coast", description: "Uma costa espetacular em Kauai, famosa por suas falésias dramáticas, praias isoladas e trilhas desafiadoras."},
-            { image: "Hawaii5", title: "Volcanoes National Park", description: "Um parque nacional onde é possível observar vulcões ativos e explorar trilhas pela lava e florestas tropicais."},
+            { image: Hawaii2, title: "Haleakalā National Park", description: "Lar de um vulcão ativo, este parque oferece uma experiência única de amanhecer e trilhas por paisagens surreais."},
+            { image: Hawaii3, title: "Pearl Harbor", description: "Um memorial histórico dedicado ao ataque de 1941, incluindo o USS Arizona Memorial e o Museu Pearl Harbor."},
+            { image: Hawaii4, title: "Na Pali Coast", description: "Uma costa espetacular em Kauai, famosa por suas falésias dramáticas, praias isoladas e trilhas desafiadoras."},
+            { image: Hawaii5, title: "Volcanoes National Park", description: "Um parque nacional onde é possível observar vulcões ativos e explorar trilhas pela lava e florestas tropicais."},
         ],
     },
     {
@@ -246,32 +273,30 @@ const states = [
         description: "Idaho, conhecido como o 'Gem State', é um estado repleto de paisagens naturais deslumbrantes, com montanhas majestosas, lagos cristalinos e rios exuberantes. Oferece uma mistura perfeita de aventura ao ar livre e tranquilidade, sendo um destino ideal para os amantes da natureza e atividades como caminhadas, esqui e pesca.",
         cards: [
             { image: Idaho1, title: "Shoshone Falls", description: "Conhecida como a 'Niágara do Oeste', esta queda d'água impressionante é mais alta que as Cataratas do Niágara e um espetáculo natural."},
-            { image: "Idaho2", title: "Sawtooth National Recreation Area", description: "Uma área de recreação nacional que oferece trilhas deslumbrantes, lagos alpinos e vistas panorâmicas das Montanhas Sawtooth."},
-            { image: "Idaho3", title: "Sun Valley", description: "Famoso destino de esqui e uma cidade montanhosa charmosa, ideal para atividades ao ar livre e relaxamento durante todo o ano."},
-            { image: "Idaho4", title: "Snake River", description: "O Snake River é um dos maiores rios do estado, oferecendo rafting, pesca e vistas cênicas impressionantes."},
-            { image: "Idaho5", title: "Craters of the Moon National Monument", description: "Um parque nacional que explora uma paisagem única, formada por lava vulcânica, criando um cenário extraterrestre."},
+            { image: Idaho2, title: "Sawtooth National Recreation Area", description: "Uma área de recreação nacional que oferece trilhas deslumbrantes, lagos alpinos e vistas panorâmicas das Montanhas Sawtooth."},
+            { image: Idaho3, title: "Sun Valley", description: "Famoso destino de esqui e uma cidade montanhosa charmosa, ideal para atividades ao ar livre e relaxamento durante todo o ano."},
+            { image: Idaho4, title: "Snake River", description: "O Snake River é um dos maiores rios do estado, oferecendo rafting, pesca e vistas cênicas impressionantes."},
+            { image: Idaho5, title: "Craters of the Moon National Monument", description: "Um parque nacional que explora uma paisagem única, formada por lava vulcânica, criando um cenário extraterrestre."},
         ],
     },
     {
         name: "Illinois",
         description: "Illinois, conhecido como o 'Prairie State', é um estado com uma mistura de grandes cidades, vastas pradarias e uma rica história. Famoso por sua capital, Chicago, e por suas atrações culturais, como museus de renome e arquitetura impressionante, Illinois oferece também uma variedade de parques e áreas naturais para explorar, tornando-o um destino ideal tanto para aventureiros quanto para quem busca experiências urbanas.",
         cards: [
-            { image: Illinois1, title: "Chicago", description: "A maior cidade do estado, famosa por sua arquitetura icônica, como o Willis Tower, e por ser um centro cultural com museus renomados, como o Art Institute of Chicago."},
-            { image: "Illinois2", title: "Millennium Park", description: "Um parque urbano em Chicago, famoso pela escultura 'Cloud Gate' (o 'Feijão'), fontes interativas e uma programação de eventos culturais e musicais ao ar livre."},
-            { image: "Illinois3", title: "Shawnee National Forest", description: "Uma vasta área de floresta no sul do estado, oferecendo trilhas, cavernas e vistas panorâmicas das montanhas de Ozark e do rio Ohio."},
-            { image: "Illinois4", title: "Lincoln Home National Historic Site", description: "Localizado em Springfield, o site preserva a casa onde Abraham Lincoln viveu antes de sua presidência, oferecendo uma imersão na história americana."},
-            { image: "Illinois5", title: "Starved Rock State Park", description: "Conhecido por suas falésias, cânions e cachoeiras, Starved Rock é um destino popular para caminhadas, pesca e desfrutar da natureza ao longo do rio Illinois."},
+            { image: Illinois1, title: "Chicago", description: "A maior cidade do estado, famosa por sua arquitetura icônica, e por ser um centro cultural com museus renomados, como o Art Institute of Chicago."},
+            { image: Illinois2, title: "Millennium Park", description: "Um parque urbano em Chicago, famoso pela escultura 'Cloud Gate' (o 'Feijão'), fontes interativas e uma programação de eventos culturais e musicais ao ar livre."},
+            { image: Illinois3, title: "Shawnee National Forest", description: "Uma vasta área de floresta no sul do estado, oferecendo trilhas, cavernas e vistas panorâmicas das montanhas de Ozark e do rio Ohio."},
+            { image: Illinois4, title: "Lincoln Home National Historic Site", description: "Localizado em Springfield, a casa onde Abraham Lincoln viveu antes de sua presidência, oferecendo uma imersão na história americana."},
+            { image: Illinois5, title: "Starved Rock State Park", description: "Conhecido por suas falésias, cânions e cachoeiras, Starved Rock é um destino popular para caminhadas, pesca e desfrutar da natureza ao longo do rio Illinois."},
         ],
     },    
     {
         name: "Iowa",
         description: "Iowa, conhecido como o 'Hawkeye State', é um estado com vastas planícies agrícolas, pequenas cidades charmosas e uma rica herança cultural. Famoso por suas feiras estaduais e suas belas paisagens rurais, Iowa também oferece uma variedade de atividades ao ar livre, incluindo trilhas, ciclismo e pesca, além de atrações culturais e históricas que celebram suas raízes no coração do Meio-Oeste.",
         cards: [
-            { image: Iowa1, title: "Des Moines", description: "A capital do estado, conhecida por seu centro vibrante, museus, como o Des Moines Art Center, e eventos culturais, como o Iowa State Fair, que celebra a vida rural do estado."},
-            { image: "Iowa2", title: "Amana Colonies", description: "Uma histórica comunidade de colonos alemães, famosa por sua arquitetura preservada, lojas de artesanato e culinária autêntica."},
-            { image: "Iowa3", title: "National Mississippi River Museum", description: "Localizado em Dubuque, este museu oferece uma visão fascinante da história do rio Mississippi, com exposições sobre vida selvagem, transporte fluvial e a cultura local."},
-            { image: "Iowa4", title: "Maquoketa Caves State Park", description: "Famoso por suas impressionantes cavernas de calcário, este parque oferece trilhas e oportunidades para exploração, além de belas paisagens e vida selvagem."},
-            { image: "Iowa5", title: "The Bridges of Madison County", description: "Inspirado no romance famoso, este local é conhecido por suas pontes cobertas históricas e pitorescas, que oferecem uma experiência única para os visitantes e fotógrafos."},
+            { image: Iowa1, title: "Des Moines", description: "A capital do estado, conhecida por seu centro vibrante, museus, eventos culturais, que celebra a vida rural do estado."},
+            { image: Iowa2, title: "Maquoketa Caves State Park", description: "Famoso por suas impressionantes cavernas de calcário, este parque oferece trilhas e oportunidades para exploração."},
+            { image: Iowa3, title: "The Bridges of Madison County", description: "Inspirado no romance famoso, este local é conhecido por suas pontes cobertas históricas e pitorescas."},
         ],
     },    
     {
@@ -279,10 +304,10 @@ const states = [
         description: "Kansas, conhecido como o 'Sunflower State', é um estado repleto de vastas planícies, cultura agrícola e paisagens tranquilas. Embora seja famoso por suas pradarias e trigo, Kansas também oferece uma rica história, museus interessantes e uma hospitalidade acolhedora, fazendo dele um destino único para os amantes de natureza e história.",
         cards: [
             { image: Kansas1, title: "Monument Rocks", description: "Formações rochosas icônicas em uma paisagem desértica, oferecendo uma visão única das maravilhas naturais de Kansas."},
-            { image: "Kansas2", title: "Tallgrass Prairie National Preserve", description: "Uma vasta reserva de pradarias preservadas, onde você pode explorar trilhas e observar a vida selvagem."},
-            { image: "Kansas3", title: "Kansas Cosmosphere", description: "Um museu e centro de ciência dedicado à exploração espacial, com exposições sobre a corrida espacial e naves históricas."},
-            { image: "Kansas4", title: "Flint Hills", description: "Uma região de pradarias com colinas ondulantes, perfeita para caminhadas e apreciadores de vistas abertas e paisagens naturais."},
-            { image: "Kansas5", title: "Boot Hill Museum", description: "Localizado em Dodge City, o museu traz à vida o velho oeste americano, com exposições e recriações de cenas históricas."},
+            { image: Kansas2, title: "Tallgrass Prairie National Preserve", description: "Uma vasta reserva de pradarias preservadas, onde você pode explorar trilhas e observar a vida selvagem."},
+            { image: Kansas3, title: "Kansas Cosmosphere", description: "Um museu e centro de ciência dedicado à exploração espacial, com exposições sobre a corrida espacial e naves históricas."},
+            { image: Kansas4, title: "Flint Hills", description: "Uma região de pradarias com colinas ondulantes, perfeita para caminhadas e apreciadores de vistas abertas e paisagens naturais."},
+            { image: Kansas5, title: "Boot Hill Museum", description: "Localizado em Dodge City, o museu traz à vida o velho oeste americano, com exposições e recriações de cenas históricas."},
         ],
     },
     {
