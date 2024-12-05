@@ -174,26 +174,65 @@ import NewYork4 from "../../public/images/new-york4.jpg"
 import NewYork5 from "../../public/images/new-york5.webp"
 
 import NorthCarolina1 from "../../public/images/north-carolina1.jpg"
+import NorthCarolina2 from "../../public/images/north-carolina2.jpg"
+import NorthCarolina3 from "../../public/images/north-carolina3.avif"
+import NorthCarolina4 from "../../public/images/north-carolina4.webp"
+import NorthCarolina5 from "../../public/images/north-carolina5.webp"
 
 import NorthDakota1 from "../../public/images/north-dakota1.jpg"
+import NorthDakota2 from "../../public/images/north-dakota2.jpg"
+import NorthDakota3 from "../../public/images/north-dakota3.jpg"
+import NorthDakota4 from "../../public/images/north-dakota4.jpg"
 
 import Ohio1 from "../../public/images/ohio1.jpg"
+import Ohio2 from "../../public/images/ohio2.jpg"
+import Ohio3 from "../../public/images/ohio3.jpg"
+import Ohio4 from "../../public/images/ohio4.jpeg"
 
 import Oklahoma1 from "../../public/images/oklahoma1.jpg"
+import Oklahoma2 from "../../public/images/oklahoma2.webp"
+import Oklahoma3 from "../../public/images/oklahoma3.webp"
+import Oklahoma4 from "../../public/images/oklahoma4.jpg"
 
 import Oregon1 from "../../public/images/oregon1.jpg"
+import Oregon2 from "../../public/images/oregon2.jpeg"
+import Oregon3 from "../../public/images/oregon3.jpg"
+import Oregon4 from "../../public/images/oregon4.jpg"
+import Oregon5 from "../../public/images/oregon5.jpg"
 
 import Pennsylvania1 from "../../public/images/pennsylvania1.jpg"
+import Pennsylvania2 from "../../public/images/pennsylvania2.jpg"
+import Pennsylvania3 from "../../public/images/pennsylvania3.webp"
+import Pennsylvania4 from "../../public/images/pennsylvania4.jpg"
 
 import RhodeIsland1 from "../../public/images/rhode-island1.jpg"
+import RhodeIsland2 from "../../public/images/rhode-island2.avif"
+import RhodeIsland3 from "../../public/images/rhode-island3.jpg"
+import RhodeIsland4 from "../../public/images/rhode-island4.jpg"
+import RhodeIsland5 from "../../public/images/rhode-island5.jpg"
 
 import SouthCarolina1 from "../../public/images/south-carolina1.jpg"
+import SouthCarolina2 from "../../public/images/south-carolina2.jpg"
+import SouthCarolina3 from "../../public/images/south-carolina3.jpg"
+import SouthCarolina4 from "../../public/images/south-carolina4.jpg"
+import SouthCarolina5 from "../../public/images/south-carolina5.jpg"
 
-import SouthDakota1 from "../../public/images/south-dakota1.jpg"
+import SouthDakota1 from "../../public/images/south-dakota1.webp"
+import SouthDakota2 from "../../public/images/south-dakota2.jpg"
+import SouthDakota3 from "../../public/images/south-dakota3.jpg"
+import SouthDakota4 from "../../public/images/south-dakota4.jpg"
+import SouthDakota5 from "../../public/images/south-dakota5.webp"
 
 import Tennessee1 from "../../public/images/tennessee1.jpg"
+import Tennessee2 from "../../public/images/tennessee2.jpg"
+import Tennessee3 from "../../public/images/tennessee3.avif"
+import Tennessee4 from "../../public/images/tennessee4.jpg"
 
 import Texas1 from "../../public/images/texas1.jpg"
+import Texas2 from "../../public/images/texas2.jpg"
+import Texas3 from "../../public/images/texas3.jpg"
+import Texas4 from "../../public/images/texas4.jpg"
+import Texas5 from "../../public/images/texas5.avif"
 
 import Utah1 from "../../public/images/utah1.jpg"
 
@@ -545,21 +584,20 @@ const states = [
         description: "North Carolina, conhecido como o 'Tar Heel State', é um estado repleto de diversidade, desde suas belas praias na costa atlântica até suas majestosas montanhas Blue Ridge. Famoso por sua rica história, culinária deliciosa e cenários naturais deslumbrantes, North Carolina oferece uma mistura única de relaxamento à beira-mar e aventuras nas montanhas, com várias atrações culturais e ao ar livre para explorar.",
         cards: [
             { image: NorthCarolina1, title: "Blue Ridge Parkway", description: "Uma estrada cênica deslumbrante que atravessa as montanhas Blue Ridge, oferecendo vistas espetaculares, trilhas para caminhadas e paisagens naturais."},
-            { image: "NorthCarolina2", title: "Great Smoky Mountains", description: "O parque nacional mais visitado dos Estados Unidos, com montanhas cobertas de névoa, trilhas e uma rica biodiversidade."},
-            { image: "NorthCarolina3", title: "Charlotte", description: "A maior cidade do estado, um centro financeiro com uma cena cultural crescente, museus, parques e a famosa Nascar Hall of Fame."},
-            { image: "NorthCarolina4", title: "Outer Banks", description: "Uma série de ilhas barreira ao longo da costa, famosas por suas praias intocadas, faróis históricos e oportunidades para esportes aquáticos."},
-            { image: "NorthCarolina5", title: "Biltmore Estate", description: "A maior casa privada dos Estados Unidos, localizada em Asheville, com belos jardins, vinhedos e uma arquitetura imponente em estilo renascentista."},
+            { image: NorthCarolina2, title: "Great Smoky Mountains", description: "O parque nacional mais visitado dos Estados Unidos, com montanhas cobertas de névoa, trilhas e uma rica biodiversidade."},
+            { image: NorthCarolina3, title: "Charlotte", description: "A maior cidade do estado, um centro financeiro com uma cena cultural crescente, museus, parques e a famosa Nascar Hall of Fame."},
+            { image: NorthCarolina4, title: "Outer Banks", description: "Uma série de ilhas barreira ao longo da costa, famosas por suas praias intocadas, faróis históricos e oportunidades para esportes aquáticos."},
+            { image: NorthCarolina5, title: "Biltmore Estate", description: "A maior casa privada dos Estados Unidos, localizada em Asheville, com belos jardins, vinhedos e uma arquitetura imponente em estilo renascentista."},
         ],
     },
     {
         name: "North Dakota",
         description: "North Dakota, conhecido como o 'Peace Garden State', é um estado tranquilo com vastas planícies, rios serenos e uma rica herança cultural. Famoso por suas paisagens de pradarias, parques nacionais e uma história ligada aos nativos americanos e à colonização ocidental, North Dakota oferece uma experiência única para quem busca aventuras ao ar livre e uma imersão em sua cultura e história.",
         cards: [
-            { image: NorthDakota1, title: "Theodore Roosevelt National Park", description: "Um parque nacional que oferece paisagens deslumbrantes de formações rochosas, pradarias e fauna selvagem, incluindo bisões e cervos."},
-            { image: "NorthDakota2", title: "Medora", description: "Uma cidade histórica situada nas proximidades do Theodore Roosevelt National Park, conhecida por sua arquitetura ocidental, teatros e atrações turísticas."},
-            { image: "NorthDakota3", title: "Bismarck", description: "A capital do estado, rica em história com museus, como o North Dakota Heritage Center, e parques ao longo do Rio Missouri."},
-            { image: "NorthDakota4", title: "Fort Union Trading Post", description: "Um local histórico que oferece uma visão sobre o comércio de peles e a vida dos nativos americanos e colonos no século XIX."},
-            { image: "NorthDakota5", title: "The Enchanted Highway", description: "Uma estrada cênica famosa por suas enormes esculturas de metal ao longo do caminho, representando animais e figuras da vida selvagem."},
+            { image: NorthDakota1, title: "Theodore Roosevelt National Park", description: "Um parque nacional que oferece paisagens de formações rochosas, pradarias e fauna selvagem, incluindo bisões e cervos."},
+            { image: NorthDakota2, title: "Medora", description: "Uma cidade histórica situada nas proximidades do Theodore Roosevelt National Park, conhecida por sua arquitetura ocidental, teatros e atrações turísticas."},
+            { image: NorthDakota3, title: "Bismarck", description: "A capital do estado, rica em história com museus, como o North Dakota Heritage Center, e parques ao longo do Rio Missouri."},
+            { image: NorthDakota4, title: "Fort Union Trading Post", description: "Um local histórico que oferece uma visão sobre o comércio de peles e a vida dos nativos americanos e colonos no século XIX."},
         ],
     },
     {
@@ -567,10 +605,9 @@ const states = [
         description: "Ohio, conhecido como o 'Buckeye State', é um estado que combina o charme de cidades vibrantes com uma rica herança cultural e paisagens naturais diversas. Desde as grandes cidades como Cleveland e Columbus até as belezas naturais de parques estaduais e lagos, Ohio oferece uma mistura de atrações históricas, culturais e de lazer, sendo um excelente destino tanto para quem busca aventura quanto para quem quer explorar a história americana.",
         cards: [
             { image: Ohio1, title: "Cleveland", description: "Uma cidade moderna conhecida por sua cena cultural, como o Rock and Roll Hall of Fame, museus de arte e belas vistas do Lago Erie."},
-            { image: "Ohio2", title: "Hocking Hills State Park", description: "Famoso por suas trilhas deslumbrantes, cachoeiras, cavernas e formações rochosas, o parque oferece uma imersão na natureza de Ohio."},
-            { image: "Ohio3", title: "Columbus", description: "A capital do estado, uma cidade vibrante com uma mistura de cultura, arte, gastronomia e entretenimento, além de ser um centro de inovação e educação."},
-            { image: "Ohio4", title: "Cedar Point", description: "Um dos parques de diversões mais antigos e famosos dos Estados Unidos, conhecido por suas montanhas-russas emocionantes e atrações para todas as idades."},
-            { image: "Ohio5", title: "Lake Erie Islands", description: "Um conjunto de ilhas ao longo do Lago Erie, perfeitas para relaxar, praticar esportes aquáticos ou explorar trilhas e locais históricos."},
+            { image: Ohio2, title: "Hocking Hills State Park", description: "Famoso por suas trilhas deslumbrantes, cachoeiras, cavernas e formações rochosas, o parque oferece uma imersão na natureza de Ohio."},
+            { image: Ohio3, title: "Columbus", description: "A capital do estado, uma cidade vibrante com uma mistura de cultura, arte, gastronomia e entretenimento, além de ser um centro de inovação e educação."},
+            { image: Ohio4, title: "Cedar Point", description: "Um dos parques de diversões mais antigos e famosos dos Estados Unidos, conhecido por suas montanhas-russas emocionantes e atrações para todas as idades."},
         ],
     },
     {
@@ -578,10 +615,9 @@ const states = [
         description: "Oklahoma, conhecido como o 'Sooner State', é um estado que mistura a cultura do velho oeste com uma rica história nativa americana e paisagens impressionantes. Com suas vastas planícies, montanhas e belas áreas ao ar livre, Oklahoma oferece uma experiência única que vai desde as aventuras no campo até as atrações culturais e históricas em suas cidades vibrantes.",
         cards: [
             { image: Oklahoma1, title: "Oklahoma City National Memorial", description: "Um memorial emocionante em homenagem às vítimas do atentado de Oklahoma City em 1995, com um museu e um jardim de reflexão."},
-            { image: "Oklahoma2", title: "Scissortail Park", description: "Um parque urbano em Oklahoma City, oferecendo trilhas, áreas de lazer, jardins e um lago, além de ser um centro de eventos e atividades ao ar livre."},
-            { image: "Oklahoma3", title: "Tulsa", description: "Uma cidade com uma rica história cultural, famosa por sua cena artística, o Museu de Arte de Tulsa e a arquitetura art déco dos anos 1920."},
-            { image: "Oklahoma4", title: "Lake Murray State Park", description: "Um dos parques estaduais mais populares, com lagos, trilhas, áreas para piquenique e atividades ao ar livre, perfeito para explorar a natureza."},
-            { image: "Oklahoma5", title: "Chickasaw National Recreation Area", description: "Uma área de recreação nacional com fontes termais naturais, trilhas para caminhadas e áreas para camping e piquenique, ideal para quem ama a natureza."},
+            { image: Oklahoma2, title: "Scissortail Park", description: "Um parque urbano em Oklahoma City, oferecendo trilhas, áreas de lazer, jardins e um lago, além de ser um centro de eventos e atividades ao ar livre."},
+            { image: Oklahoma3, title: "Tulsa", description: "Uma cidade com uma rica história cultural, famosa por sua cena artística, o Museu de Arte de Tulsa e a arquitetura art déco dos anos 1920."},
+            { image: Oklahoma4, title: "Chickasaw National Recreation Area", description: "Uma área de recreação nacional com fontes termais naturais, trilhas para caminhadas e áreas para camping e piquenique."},
         ],
     },
     {
@@ -589,10 +625,10 @@ const states = [
         description: "Oregon, conhecido como o 'Beaver State', é um estado de beleza natural incomparável, com uma diversidade de paisagens que incluem florestas, montanhas, praias e desertos. Famoso por suas atividades ao ar livre, como caminhadas e esportes aquáticos, além de sua cena cultural e culinária em cidades como Portland, Oregon é um destino perfeito para os amantes da natureza e exploradores urbanos.",
         cards: [
             { image: Oregon1, title: "Crater Lake National Park", description: "Famoso por suas águas cristalinas e paisagens deslumbrantes, é o lago mais profundo dos Estados Unidos, localizado em um vulcão extinto."},
-            { image: "Oregon2", title: "Portland", description: "A maior cidade do estado, conhecida por sua cena artística e cultural vibrante, com museus, parques e uma culinária inovadora, incluindo sua famosa cultura de food trucks."},
-            { image: "Oregon3", title: "Columbia River Gorge", description: "Uma impressionante garganta formada pelo rio Columbia, conhecida por suas cachoeiras, trilhas e vistas panorâmicas."},
-            { image: "Oregon4", title: "Oregon Coast", description: "Uma costa deslumbrante com praias intocadas, falésias dramáticas e uma abundante vida selvagem, perfeita para relaxar ou fazer atividades como observação de baleias."},
-            { image: "Oregon5", title: "Mount Hood", description: "O pico mais alto de Oregon, popular para esqui e snowboard no inverno, e para caminhadas e observação de flores selvagens no verão."},
+            { image: Oregon2, title: "Portland", description: "A maior cidade do estado, conhecida por sua cena cultural, com museus, parques e uma culinária inovadora, incluindo sua famosa cultura de food trucks."},
+            { image: Oregon3, title: "Columbia River Gorge", description: "Uma impressionante garganta formada pelo rio Columbia, conhecida por suas cachoeiras, trilhas e vistas panorâmicas."},
+            { image: Oregon4, title: "Oregon Coast", description: "Uma costa deslumbrante com praias intocadas, falésias dramáticas e uma abundante vida selvagem, perfeita para relaxar ou fazer atividades."},
+            { image: Oregon5, title: "Mount Hood", description: "O pico mais alto de Oregon, popular para esqui e snowboard no inverno, e para caminhadas e observação de flores selvagens no verão."},
         ],
     },
     {
@@ -600,10 +636,9 @@ const states = [
         description: "Pennsylvania, conhecido como o 'Keystone State', é um estado com uma rica história americana, paisagens deslumbrantes e uma vibrante cena cultural. De cidades históricas como Filadélfia a parques nacionais com belas trilhas, Pennsylvania oferece uma combinação perfeita de patrimônio, arte, natureza e diversão para toda a família.",
         cards: [
             { image: Pennsylvania1, title: "Philadelphia", description: "A histórica cidade de Filadélfia, famosa pela Liberty Bell, Independence Hall e uma rica cena cultural, incluindo museus e arte de classe mundial."},
-            { image: "Pennsylvania2", title: "Gettysburg National Park", description: "Um parque histórico que preserva o local da famosa Batalha de Gettysburg, essencial para a história da Guerra Civil Americana."},
-            { image: "Pennsylvania3", title: "Pittsburgh", description: "Uma cidade vibrante conhecida por sua arquitetura moderna, museus como o Andy Warhol Museum e suas pontes que conectam as colinas e rios da cidade."},
-            { image: "Pennsylvania4", title: "Hershey", description: "A cidade do chocolate, onde você pode visitar a Hersheypark, um parque de diversões, e o Hershey's Chocolate World, um centro de experiências interativas."},
-            { image: "Pennsylvania5", title: "Allegheny National Forest", description: "Uma vasta floresta nacional com trilhas para caminhadas, acampamentos e oportunidades para atividades ao ar livre, como pesca e observação de vida selvagem."},
+            { image: Pennsylvania2, title: "Gettysburg National Park", description: "Um parque histórico que preserva o local da famosa Batalha de Gettysburg, essencial para a história da Guerra Civil Americana."},
+            { image: Pennsylvania3, title: "Pittsburgh", description: "Uma cidade vibrante conhecida por sua arquitetura moderna, museus e suas pontes que conectam as colinas e rios da cidade."},
+            { image: Pennsylvania4, title: "Allegheny National Forest", description: "Uma vasta floresta nacional com trilhas para caminhadas, acampamentos e oportunidades para atividades ao ar livre."},
         ],
     },
     {
@@ -611,54 +646,53 @@ const states = [
         description: "Rhode Island, conhecido como o 'Ocean State', é o menor estado dos Estados Unidos, mas oferece uma grande variedade de atrações. Com suas belas praias, marinas, faróis históricos e cidades encantadoras, Rhode Island é um destino ideal para quem procura relaxar à beira-mar ou explorar sua rica história e cultura.",
         cards: [
             { image: RhodeIsland1, title: "Newport", description: "Famosa por suas mansões históricas e vista deslumbrante para o oceano, Newport é uma cidade encantadora conhecida por seu charme costeiro e eventos culturais."},
-            { image: "RhodeIsland2", title: "Block Island", description: "Uma ilha tranquila ao largo da costa de Rhode Island, com praias imaculadas, trilhas para caminhadas e uma atmosfera relaxante, ideal para um refúgio à beira-mar."},
-            { image: "RhodeIsland3", title: "WaterFire Providence", description: "Uma instalação artística única que ilumina os rios de Providence com fogos de artifício e esculturas de fogo, criando uma experiência mágica e cultural."},
-            { image: "RhodeIsland4", title: "The Breakers", description: "Uma das mansões mais icônicas de Newport, construída pela família Vanderbilt, que oferece uma visão impressionante do luxo e da história da era dourada."},
-            { image: "RhodeIsland5", title: "Roger Williams Park Zoo", description: "Um zoológico histórico em Providence, conhecido por suas exibições de animais exóticos e pelo compromisso com a educação ambiental e conservação."},
+            { image: RhodeIsland2, title: "Block Island", description: "Uma ilha tranquila ao largo da costa de Rhode Island, com praias imaculadas, trilhas para caminhadas e uma atmosfera relaxante, ideal para um refúgio à beira-mar."},
+            { image: RhodeIsland3, title: "WaterFire Providence", description: "Uma instalação artística única que ilumina os rios de Providence com fogos de artifício e esculturas de fogo, criando uma experiência mágica e cultural."},
+            { image: RhodeIsland4, title: "The Breakers", description: "Uma das mansões mais icônicas de Newport, construída pela família Vanderbilt, que oferece uma visão impressionante do luxo e da história da era dourada."},
+            { image: RhodeIsland5, title: "Roger Williams Park Zoo", description: "Um zoológico histórico em Providence, conhecido por suas exibições de animais exóticos e pelo compromisso com a educação ambiental e conservação."},
         ],
     },
     {
         name: "South Carolina",
         description: "South Carolina, conhecida como o 'Palmetto State', é um destino que mistura belezas naturais, praias exuberantes e uma rica história americana. Com suas cidades vibrantes como Charleston, heranças históricas e costas deslumbrantes, South Carolina oferece uma experiência única de cultura, gastronomia e lazer para todos os gostos.",
         cards: [
-            { image: SouthCarolina1, title: "Charleston", description: "Uma cidade histórica encantadora, conhecida por suas ruas de paralelepípedos, arquitetura colonial e rica herança cultural, incluindo museus, jardins e ótima gastronomia."},
-            { image: "SouthCarolina2", title: "Myrtle Beach", description: "Uma das mais famosas praias da Costa Leste, com quilômetro após quilômetro de areia dourada, atrações familiares e uma animada vida noturna."},
-            { image: "SouthCarolina3", title: "Fort Sumter", description: "Um marco histórico onde a Guerra Civil Americana começou, localizado na baía de Charleston, com visitas guiadas que exploram a história militar dos Estados Unidos."},
-            { image: "SouthCarolina4", title: "Hilton Head Island", description: "Uma ilha famosa por suas praias tranquilas, campos de golfe e atividades ao ar livre, incluindo ciclismo e observação de vida selvagem."},
-            { image: "SouthCarolina5", title: "Congaree National Park", description: "Um dos maiores pântanos de ciprestes do país, com trilhas para caminhadas e oportunidades para explorar a rica biodiversidade de South Carolina."},
+            { image: SouthCarolina1, title: "Charleston", description: "Uma cidade encantadora, conhecida por suas ruas de paralelepípedos, arquitetura colonial e rica herança cultural, como museus, jardins e gastronomia."},
+            { image: SouthCarolina2, title: "Myrtle Beach", description: "Uma das mais famosas praias da Costa Leste, com quilômetro após quilômetro de areia dourada, atrações familiares e uma animada vida noturna."},
+            { image: SouthCarolina3, title: "Fort Sumter", description: "Um marco histórico onde a Guerra Civil Americana começou, localizado na baía de Charleston, com visitas guiadas que exploram a história militar dos Estados Unidos."},
+            { image: SouthCarolina4, title: "Hilton Head Island", description: "Uma ilha famosa por suas praias tranquilas, campos de golfe e atividades ao ar livre, incluindo ciclismo e observação de vida selvagem."},
+            { image: SouthCarolina5, title: "Congaree National Park", description: "Um dos maiores pântanos de ciprestes do país, com trilhas para caminhadas e oportunidades para explorar a rica biodiversidade de South Carolina."},
         ],
     },
     {
         name: "South Dakota",
         description: "South Dakota, conhecido como o 'Mount Rushmore State', é um estado cheio de maravilhas naturais, história fascinante e cultura vibrante. Desde os icônicos monumentos como o Mount Rushmore até as vastas pradarias e parques nacionais, South Dakota oferece uma combinação única de beleza, história e atividades ao ar livre.",
         cards: [
-            { image: SouthDakota1, title: "Mount Rushmore National Memorial", description: "O famoso monumento esculpido na rocha, com os rostos de quatro presidentes americanos, é um dos marcos mais emblemáticos dos Estados Unidos."},
-            { image: "SouthDakota2", title: "Badlands National Park", description: "Um parque com paisagens dramáticas de formações rochosas e pradarias, perfeito para caminhadas, observação de vida selvagem e acampamento."},
-            { image: "SouthDakota3", title: "Custer State Park", description: "Um vasto parque estadual que oferece trilhas, piqueniques e a oportunidade de ver bisões selvagens em seu habitat natural."},
-            { image: "SouthDakota4", title: "Deadwood", description: "Uma cidade histórica da época da corrida do ouro, famosa por sua atmosfera do velho oeste, jogos de azar e museus que preservam a história da mineração."},
-            { image: "SouthDakota5", title: "The Crazy Horse Memorial", description: "Uma enorme escultura em homenagem aos heróis nativos americanos, ainda em construção, que quando concluída será a maior escultura de rocha do mundo."},
+            { image: SouthDakota1, title: "Mount Rushmore National Memorial", description: "O famoso monumento esculpido na rocha, com os rostos de quatro presidentes americanos, é um dos marcos dos Estados Unidos."},
+            { image: SouthDakota2, title: "Badlands National Park", description: "Um parque com paisagens dramáticas de formações rochosas e pradarias, perfeito para caminhadas, observação de vida selvagem e acampamento."},
+            { image: SouthDakota3, title: "Custer State Park", description: "Um vasto parque estadual que oferece trilhas, piqueniques e a oportunidade de ver bisões selvagens em seu habitat natural."},
+            { image: SouthDakota4, title: "Deadwood", description: "Uma cidade histórica da época da corrida do ouro, famosa por sua atmosfera do velho oeste, jogos de azar e museus que preservam a história da mineração."},
+            { image: SouthDakota5, title: "The Crazy Horse Memorial", description: "Uma enorme escultura em homenagem aos heróis nativos americanos, ainda em construção, que quando concluída será a maior escultura de rocha do mundo."},
         ],
     },
     {
         name: "Tennessee",
         description: "Tennessee, conhecido como o 'Volunteer State', é um estado repleto de música, história e paisagens deslumbrantes. Famoso por suas contribuições à música, especialmente o blues e o country, Tennessee oferece experiências culturais vibrantes em cidades como Nashville e Memphis, além de belas montanhas e parques naturais.",
         cards: [
-            { image: Tennessee1, title: "Nashville", description: "A capital da música country, famosa por sua cena musical vibrante, incluindo o Grand Ole Opry, o Country Music Hall of Fame e uma infinidade de bares com música ao vivo."},
-            { image: "Tennessee2", title: "Graceland", description: "A icônica mansão de Elvis Presley em Memphis, agora transformada em um museu, é um destino obrigatório para os fãs do Rei do Rock."},
-            { image: "Tennessee3", title: "Great Smoky Mountains National Park", description: "Um dos parques nacionais mais visitados dos Estados Unidos, conhecido por suas trilhas deslumbrantes, vistas panorâmicas e rica biodiversidade."},
-            { image: "Tennessee4", title: "Memphis", description: "Uma cidade cheia de história musical, incluindo Beale Street, um bairro histórico que abriga bares, restaurantes e locais de música ao vivo, além do National Civil Rights Museum."},
-            { image: "Tennessee5", title: "Chattanooga", description: "Uma cidade encantadora, famosa pelo Lookout Mountain, onde se pode explorar cavernas, trilhas e desfrutar de vistas espetaculares, além do Tennessee Aquarium."},
+            { image: Tennessee1, title: "Nashville", description: "A capital da música country, famosa por sua cena musical, incluindo o Grand Ole Opry, o Country Music Hall of Fame e muitos bares com música ao vivo."},
+            { image: Tennessee2, title: "Graceland", description: "A icônica mansão de Elvis Presley em Memphis, agora transformada em um museu, é um destino obrigatório para os fãs do Rei do Rock."},
+            { image: Tennessee3, title: "Memphis", description: "Uma cidade cheia de história musical, incluindo Beale Street, bairro que abriga bares, locais com música ao vivo, além do National Civil Rights Museum."},
+            { image: Tennessee4, title: "Chattanooga", description: "Uma cidade encantadora, famosa pelo Lookout Mountain, onde se pode explorar cavernas, trilhas e desfrutar de vistas espetaculares, além do Tennessee Aquarium."},
         ],
     },
     {
         name: "Texas",
         description: "Texas, o segundo maior estado dos Estados Unidos, é uma mistura vibrante de história, cultura e paisagens diversificadas. Famoso por sua grandiosidade, Texas oferece desde as vastas planícies e desertos até cidades cosmopolitas como Houston e Austin, e uma rica herança que inclui a Revolução Texana e a cultura cowboy.",
         cards: [
-            { image: Texas1, title: "Austin", description: "A capital do estado, conhecida por sua cena musical, festivais, e como um centro tecnológico emergente. Austin é famosa por seus shows ao vivo e a gastronomia de tacos e churrasco."},
-            { image: "Texas2", title: "San Antonio", description: "Uma cidade histórica, famosa pelo Alamo, onde aconteceu uma das batalhas mais importantes da Revolução Texana, além de seus encantadores passeios ao longo do River Walk."},
-            { image: "Texas3", title: "Big Bend National Park", description: "Um parque nacional no deserto do Texas, famoso por suas paisagens impressionantes, trilhas para caminhadas, rafting e observação de vida selvagem."},
-            { image: "Texas4", title: "Houston", description: "A maior cidade do estado, conhecida por sua indústria espacial, o Space Center Houston, sua cena gastronômica diversificada e uma vibrante vida cultural."},
-            { image: "Texas5", title: "Dallas", description: "Uma cidade cosmopolita com uma rica herança cultural e histórica, famosa por seu centro moderno, museus de arte e o marco histórico do Dealey Plaza, onde ocorreu o assassinato de John F. Kennedy."},
+            { image: Texas1, title: "Austin", description: "A capital do estado, famosa por sua cena musical, festivais e como um centro tecnológico. Austin se destaca pelos shows ao vivo e a gastronomia de tacos e churrasco."},
+            { image: Texas2, title: "San Antonio", description: "Uma cidade histórica, famosa pelo Alamo, onde aconteceu uma das batalhas mais importantes da Revolução Texana, além de seus passeios no River Walk."},
+            { image: Texas3, title: "Big Bend National Park", description: "Um parque nacional no deserto do Texas, famoso por suas paisagens impressionantes, trilhas para caminhadas, rafting e observação de vida selvagem."},
+            { image: Texas4, title: "Houston", description: "A maior cidade do estado, conhecida por sua indústria espacial, o Space Center Houston, sua cena gastronômica diversificada e uma vibrante vida cultural."},
+            { image: Texas5, title: "Dallas", description: "Uma cidade cosmopolita, famosa por seu centro moderno, museus de arte e o marco histórico do Dealey Plaza, onde ocorreu o assassinato de John F. Kennedy."},
         ],
     },
     {
