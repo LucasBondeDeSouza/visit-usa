@@ -83,36 +83,95 @@ import Kansas4 from "../../public/images/kansas4.jpg"
 import Kansas5 from "../../public/images/kansas5.jpg"
 
 import Kentucky1 from "../../public/images/kentucky1.jpg"
+import Kentucky2 from "../../public/images/kentucky2.jpg"
+import Kentucky3 from "../../public/images/kentucky3.jpg"
+import Kentucky4 from "../../public/images/kentucky4.jpg"
 
 import Louisiana1 from "../../public/images/louisiana1.jpg"
+import Louisiana2 from "../../public/images/louisiana2.jpg"
+import Louisiana3 from "../../public/images/louisiana3.jpg"
+import Louisiana4 from "../../public/images/louisiana4.jpg"
 
 import Maine1 from "../../public/images/maine1.webp"
+import Maine2 from "../../public/images/maine2.jpg"
+import Maine3 from "../../public/images/maine3.jpg"
+import Maine4 from "../../public/images/maine4.jpg"
+import Maine5 from "../../public/images/maine5.webp"
 
 import Maryland1 from "../../public/images/maryland1.jpg"
+import Maryland2 from "../../public/images/maryland2.jpg"
+import Maryland3 from "../../public/images/maryland3.jpg"
+import Maryland4 from "../../public/images/maryland4.jpg"
+import Maryland5 from "../../public/images/maryland5.jpg"
 
 import Massachusetts1 from "../../public/images/massachusetts1.jpg"
+import Massachusetts2 from "../../public/images/massachusetts2.jpg"
+import Massachusetts3 from "../../public/images/massachusetts3.jpg"
+import Massachusetts4 from "../../public/images/massachusetts4.jpg"
+import Massachusetts5 from "../../public/images/massachusetts5.jpg"
 
 import Michigan1 from "../../public/images/michigan1.jpg"
+import Michigan2 from "../../public/images/michigan2.jpg"
+import Michigan3 from "../../public/images/michigan3.jpg"
+import Michigan4 from "../../public/images/michigan4.jpg"
 
 import Minnesota1 from "../../public/images/minnesota1.jpg"
+import Minnesota2 from "../../public/images/minnesota2.jpg"
+import Minnesota3 from "../../public/images/minnesota3.jpg"
+import Minnesota4 from "../../public/images/minnesota4.jpg"
 
 import Mississippi1 from "../../public/images/mississippi1.jpg"
+import Mississippi2 from "../../public/images/mississippi2.jpg"
+import Mississippi3 from "../../public/images/mississippi3.jpg"
+import Mississippi4 from "../../public/images/mississippi4.jpg"
+import Mississippi5 from "../../public/images/mississippi5.jpg"
 
 import Missouri1 from "../../public/images/missouri1.jpg"
+import Missouri2 from "../../public/images/missouri2.jpg"
+import Missouri3 from "../../public/images/missouri3.jpg"
+import Missouri4 from "../../public/images/missouri4.jpg"
+import Missouri5 from "../../public/images/missouri5.jpg"
 
 import Montana1 from "../../public/images/montana1.jpg"
+import Montana2 from "../../public/images/montana2.jpg"
+import Montana3 from "../../public/images/montana3.webp"
+import Montana4 from "../../public/images/montana4.avif"
+import Montana5 from "../../public/images/montana5.jpg"
 
 import Nebraska1 from "../../public/images/nebraska1.jpg"
+import Nebraska2 from "../../public/images/nebraska2.jpg"
+import Nebraska3 from "../../public/images/nebraska3.jpg"
+import Nebraska4 from "../../public/images/nebraska4.jpg"
+import Nebraska5 from "../../public/images/nebraska5.avif"
 
-import Nevada1 from "../../public/images/nevada1.jpg"
+import Nevada1 from "../../public/images/nevada1.webp"
+import Nevada2 from "../../public/images/nevada2.jpg"
+import Nevada3 from "../../public/images/nevada3.jpg"
+import Nevada4 from "../../public/images/nevada4.jpg"
+import Nevada5 from "../../public/images/nevada5.jpg"
 
 import NewHampshire1 from "../../public/images/new-hampshire1.jpg"
+import NewHampshire2 from "../../public/images/new-hampshire2.jpg"
+import NewHampshire3 from "../../public/images/new-hampshire3.jpg"
+import NewHampshire4 from "../../public/images/new-hampshire4.jpg"
+import NewHampshire5 from "../../public/images/new-hampshire5.jpg"
 
 import NewJersey1 from "../../public/images/new-jersey1.jpg"
+import NewJersey2 from "../../public/images/new-jersey2.webp"
+import NewJersey3 from "../../public/images/new-jersey3.jpg"
+import NewJersey5 from "../../public/images/new-jersey5.jpg"
 
 import NewMexico1 from "../../public/images/new-mexico1.jpg"
+import NewMexico2 from "../../public/images/new-mexico2.png"
+import NewMexico3 from "../../public/images/new-mexico3.avif"
+import NewMexico4 from "../../public/images/new-mexico4.jpg"
+import NewMexico5 from "../../public/images/new-mexico5.jpg"
 
-import NewYork1 from "../../public/images/new-york1.jpg"
+import NewYork1 from "../../public/images/new-york.webp"
+import NewYork2 from "../../public/images/new-york2.jpg"
+import NewYork3 from "../../public/images/new-york3.jpg"
+import NewYork4 from "../../public/images/new-york4.jpg"
+import NewYork5 from "../../public/images/new-york5.webp"
 
 import NorthCarolina1 from "../../public/images/north-carolina1.jpg"
 
@@ -315,10 +374,9 @@ const states = [
         description: "Kentucky, conhecido como o 'Bluegrass State', é famoso por sua rica tradição em corrida de cavalos, bourbon e música country. Além disso, oferece uma beleza natural impressionante, com cavernas, florestas e montanhas, tornando-o um destino ideal para os amantes de aventura ao ar livre e cultura do sul.",
         cards: [
             { image: Kentucky1, title: "Mammoth Cave National Park", description: "O maior sistema de cavernas do mundo, com passeios subterrâneos e oportunidades para explorar uma paisagem única."},
-            { image: "Kentucky2", title: "Bourbon Trail", description: "Uma rota turística que passa por destilarias históricas, oferecendo degustações e tours sobre a produção do famoso bourbon de Kentucky."},
-            { image: "Kentucky3", title: "Churchill Downs", description: "O icônico local da corrida de cavalos Kentucky Derby, um evento que atrai milhares de visitantes anualmente."},
-            { image: "Kentucky4", title: "Red River Gorge", description: "Uma área cênica de montanhas e trilhas com pontes naturais de pedra e oportunidades para escalada e atividades ao ar livre."},
-            { image: "Kentucky5", title: "Cumberland Falls State Resort Park", description: "Conhecida como a 'Niágara do Sul', Cumberland Falls oferece uma vista espetacular de uma cachoeira, com a rara característica de arco-íris lunares."},
+            { image: Kentucky2, title: "Churchill Downs", description: "O icônico local da corrida de cavalos Kentucky Derby, um evento que atrai milhares de visitantes anualmente."},
+            { image: Kentucky3, title: "Red River Gorge", description: "Uma área cênica de montanhas e trilhas com pontes naturais de pedra e oportunidades para escalada e atividades ao ar livre."},
+            { image: Kentucky4, title: "Cumberland Falls State Resort Park", description: "Conhecida como a 'Niágara do Sul', Cumberland Falls tem uma vista espetacular de uma cachoeira, com característica de arco-íris lunares."},
         ],
     },
     {
@@ -326,10 +384,9 @@ const states = [
         description: "Louisiana, conhecida por sua rica herança cultural, é o berço do jazz e da culinária cajun. O estado oferece uma mistura única de influências francesas, africanas e espanholas, com pântanos misteriosos, cidades vibrantes como Nova Orleans e uma gastronomia incomparável, criando uma experiência inesquecível para os visitantes.",
         cards: [
             { image: Louisiana1, title: "New Orleans", description: "Famosa por sua música jazz, culinária cajun e o vibrante bairro francês, Nova Orleans é um dos destinos mais icônicos dos Estados Unidos."},
-            { image: "Louisiana2", title: "Mardi Gras", description: "O maior e mais famoso carnaval dos Estados Unidos, com desfiles, fantasias extravagantes e festas que atraem milhões de visitantes anualmente."},
-            { image: "Louisiana3", title: "Bayou Sauvage National Wildlife Refuge", description: "Uma vasta área de pântanos e pântanos, perfeita para observação de vida selvagem, passeios de barco e exploração da natureza."},
-            { image: "Louisiana4", title: "Plantation Homes", description: "Visite as grandiosas mansões históricas ao longo do rio Mississippi, que refletem a rica história e arquitetura do estado."},
-            { image: "Louisiana5", title: "Cajun Country", description: "Explore a cultura cajun, com música ao vivo, dança e deliciosa comida tradicional em cidades como Lafayette e Baton Rouge."},
+            { image: Louisiana2, title: "Mardi Gras", description: "O maior e mais famoso carnaval dos Estados Unidos, com desfiles, fantasias extravagantes e festas que atraem milhões de visitantes anualmente."},
+            { image: Louisiana3, title: "Bayou Sauvage National Wildlife Refuge", description: "Uma vasta área de pântanos e pântanos, perfeita para observação de vida selvagem, passeios de barco e exploração da natureza."},
+            { image: Louisiana4, title: "Cajun Country", description: "Explore a cultura cajun, com música ao vivo, dança e deliciosa comida tradicional em cidades como Lafayette e Baton Rouge."},
         ],
     },
     {
@@ -337,10 +394,10 @@ const states = [
         description: "Maine, conhecido como o 'Pine Tree State', é famoso por suas paisagens costeiras deslumbrantes, faróis históricos e rica vida marinha. Com suas florestas tranquilas, montanhas e vilarejos pitorescos, Maine oferece um refúgio perfeito para quem busca contato com a natureza, além de ser um destino popular para amantes de frutos do mar e atividades ao ar livre.",
         cards: [
             { image: Maine1, title: "Acadia National Park", description: "Um dos parques nacionais mais bonitos dos Estados Unidos, oferecendo trilhas cênicas, vistas panorâmicas e a chance de explorar a costa de Maine."},
-            { image: "Maine2", title: "Bar Harbor", description: "Uma charmosa cidade costeira, ideal para explorar a cultura local, fazer passeios de barco e saborear pratos à base de frutos do mar frescos."},
-            { image: "Maine3", title: "Portland Head Light", description: "Um dos faróis mais fotografados do mundo, localizado no Cape Elizabeth, oferecendo vistas impressionantes do Oceano Atlântico."},
-            { image: "Maine4", title: "Old Orchard Beach", description: "Uma das praias mais populares de Maine, com um píer histórico e muitas opções de entretenimento para toda a família."},
-            { image: "Maine5", title: "L.L.Bean Flagship Store", description: "A famosa loja de varejo localizada em Freeport, que é um ícone do estado e um destino de compras único, oferecendo roupas e equipamentos ao ar livre."},
+            { image: Maine2, title: "Bar Harbor", description: "Uma charmosa cidade costeira, ideal para explorar a cultura local, fazer passeios de barco e saborear pratos à base de frutos do mar frescos."},
+            { image: Maine3, title: "Portland Head Light", description: "Um dos faróis mais fotografados do mundo, localizado no Cape Elizabeth, oferecendo vistas impressionantes do Oceano Atlântico."},
+            { image: Maine4, title: "Old Orchard Beach", description: "Uma das praias mais populares de Maine, com um píer histórico e muitas opções de entretenimento para toda a família."},
+            { image: Maine5, title: "L.L.Bean Flagship Store", description: "A famosa loja de varejo localizada em Freeport, que é um ícone do estado e um destino de compras único, oferecendo roupas e equipamentos ao ar livre."},
         ],
     },
     {
@@ -348,10 +405,10 @@ const states = [
         description: "Maryland, conhecido como o 'Old Line State', é um estado repleto de história, cultura e paisagens diversas. De suas praias ao longo da costa do Atlântico até suas montanhas e cidades históricas, Maryland oferece uma grande variedade de experiências, incluindo comida de frutos do mar, museus e trilhas ao ar livre, tudo dentro de uma região de fácil acesso para a capital dos EUA.",
         cards: [
             { image: Maryland1, title: "Chesapeake Bay", description: "A maior baía dos Estados Unidos, famosa por suas águas tranquilas, passeios de barco e a famosa comida de caranguejo azul de Maryland."},
-            { image: "Maryland2", title: "Fort McHenry", description: "Um marco histórico em Baltimore, onde a Batalha de Fort McHenry inspirou o 'The Star-Spangled Banner', o hino nacional dos EUA."},
-            { image: "Maryland3", title: "Antietam National Battlefield", description: "O campo de batalha da Guerra Civil Americana onde ocorreu a batalha mais sangrenta da história dos EUA, com um memorial e trilhas para caminhada."},
-            { image: "Maryland4", title: "Baltimore Inner Harbor", description: "Uma área vibrante com museus, lojas, restaurantes e atrações como o National Aquarium e o USS Constellation."},
-            { image: "Maryland5", title: "Assateague Island", description: "Uma ilha costeira conhecida por suas praias intocadas e os famosos cavalos selvagens de Assateague, perfeita para caminhadas e observação de vida selvagem."},
+            { image: Maryland2, title: "Fort McHenry", description: "Um marco histórico em Baltimore, onde a Batalha de Fort McHenry inspirou o 'The Star-Spangled Banner', o hino nacional dos EUA."},
+            { image: Maryland3, title: "Antietam National Battlefield", description: "O campo de batalha da Guerra Civil Americana onde ocorreu a batalha mais sangrenta da história dos EUA, com um memorial e trilhas."},
+            { image: Maryland4, title: "Baltimore Inner Harbor", description: "Uma área vibrante com museus, lojas, restaurantes e atrações como o National Aquarium e o USS Constellation."},
+            { image: Maryland5, title: "Assateague Island", description: "Uma ilha costeira conhecida por suas praias intocadas e os famosos cavalos selvagens de Assateague, perfeita para caminhadas e observação de vida selvagem."},
         ],
     },
     {
@@ -359,10 +416,10 @@ const states = [
         description: "Massachusetts, conhecido como o 'Bay State', é um dos estados mais históricos dos EUA, com uma rica herança colonial, cultural e acadêmica. De Boston, com sua história revolucionária, até suas belas praias e cidades pitorescas, Massachusetts oferece uma combinação única de cultura, história e beleza natural.",
         cards: [
             { image: Massachusetts1, title: "Boston", description: "A capital de Massachusetts, famosa por sua história revolucionária, incluindo o Freedom Trail, o Boston Tea Party e a Harvard University."},
-            { image: "Massachusetts2", title: "Cape Cod", description: "Uma região costeira encantadora, com praias, vilarejos pitorescos e faróis históricos, ideal para relaxamento e atividades ao ar livre."},
-            { image: "Massachusetts3", title: "Harvard University", description: "A universidade mais antiga dos Estados Unidos, localizada em Cambridge, com seu campus histórico e vários museus de renome."},
-            { image: "Massachusetts4", title: "Salem", description: "Famosa pelos julgamentos das bruxas de 1692, Salem oferece atrações históricas e misteriosas, além de museus e passeios guiados."},
-            { image: "Massachusetts5", title: "Mount Greylock", description: "A montanha mais alta do estado, oferecendo trilhas cênicas, vistas espetaculares e oportunidades para acampamento e esportes ao ar livre."},
+            { image: Massachusetts2, title: "Cape Cod", description: "Uma região costeira encantadora, com praias, vilarejos pitorescos e faróis históricos, ideal para relaxamento e atividades ao ar livre."},
+            { image: Massachusetts3, title: "Harvard University", description: "A universidade mais antiga dos Estados Unidos, localizada em Cambridge, com seu campus histórico e vários museus de renome."},
+            { image: Massachusetts4, title: "Salem", description: "Famosa pelos julgamentos das bruxas de 1692, Salem oferece atrações históricas e misteriosas, além de museus e passeios guiados."},
+            { image: Massachusetts5, title: "Mount Greylock", description: "A montanha mais alta do estado, oferecendo trilhas cênicas, vistas espetaculares e oportunidades para acampamento e esportes ao ar livre."},
         ],
     },
     {
@@ -370,10 +427,9 @@ const states = [
         description: "Michigan, conhecido como o 'Great Lakes State', é um estado repleto de belezas naturais, com suas vastas florestas, lagos cristalinos e montanhas. Michigan oferece uma combinação única de paisagens deslumbrantes, cidades vibrantes e rica história automotiva, sendo o destino ideal para aventureiros, fãs de esportes ao ar livre e entusiastas da cultura americana.",
         cards: [
             { image: Michigan1, title: "Mackinac Island", description: "Uma ilha histórica onde carros são proibidos, oferecendo passeios de bicicleta, charretes e vistas panorâmicas do Lago Huron."},
-            { image: "Michigan2", title: "Sleeping Bear Dunes National Lakeshore", description: "Um parque nacional com dunas de areia impressionantes, trilhas para caminhada e vistas deslumbrantes do Lago Michigan."},
-            { image: "Michigan3", title: "Detroit", description: "A cidade famosa pela indústria automotiva, com museus como o Henry Ford Museum e o Detroit Institute of Arts, além de uma cena musical vibrante."},
-            { image: "Michigan4", title: "Pictured Rocks National Lakeshore", description: "Uma área costeira no Lago Superior, famosa pelas impressionantes formações rochosas coloridas, cavernas e cachoeiras."},
-            { image: "Michigan5", title: "Traverse City", description: "Conhecida como a capital das cerejas, Traverse City é uma cidade charmosa com vinícolas, praias e festivais durante o verão."},
+            { image: Michigan2, title: "Sleeping Bear Dunes National Lakeshore", description: "Um parque nacional com dunas de areia impressionantes, trilhas para caminhada e vistas deslumbrantes do Lago Michigan."},
+            { image: Michigan3, title: "Detroit", description: "A cidade famosa pela indústria automotiva, com museus como o Henry Ford Museum e o Detroit Institute of Arts, além de uma cena musical vibrante."},
+            { image: Michigan4, title: "Pictured Rocks National Lakeshore", description: "Uma área costeira no Lago Superior, famosa pelas impressionantes formações rochosas coloridas, cavernas e cachoeiras."},
         ],
     },
     {
@@ -381,10 +437,9 @@ const states = [
         description: "Minnesota, conhecido como o 'Land of 10,000 Lakes', é um estado repleto de belezas naturais, com vastos lagos, florestas e áreas selvagens. Além das paisagens ao ar livre, Minnesota é famosa por suas cidades dinâmicas, rica herança cultural e vida selvagem, oferecendo atividades para todos os gostos, desde esportes ao ar livre até museus e teatros de classe mundial.",
         cards: [
             { image: Minnesota1, title: "Mall of America", description: "O maior shopping center dos Estados Unidos, localizado em Bloomington, com lojas, restaurantes, um parque de diversões e um aquário."},
-            { image: "Minnesota2", title: "Boundary Waters Canoe Area Wilderness", description: "Uma vasta área selvagem, ideal para aventuras ao ar livre, com trilhas para caminhadas, canoagem e acampamento em paisagens deslumbrantes."},
-            { image: "Minnesota3", title: "Minneapolis Sculpture Garden", description: "Um dos maiores jardins de esculturas ao ar livre do mundo, com obras famosas como a 'Spoonbridge and Cherry' e vistas do centro de Minneapolis."},
-            { image: "Minnesota4", title: "Voyageurs National Park", description: "Um parque nacional famoso pelos lagos tranquilos, perfeitos para atividades como canoagem, pesca e observação de vida selvagem."},
-            { image: "Minnesota5", title: "Duluth", description: "Uma charmosa cidade à beira do Lago Superior, conhecida por suas belas paisagens, museus e atividades ao ar livre, como trilhas e passeios de barco."},
+            { image: Minnesota2, title: "Boundary Waters Canoe Area Wilderness", description: "Uma vasta área selvagem, ideal para aventuras ao ar livre, com trilhas para caminhadas, canoagem e acampamento."},
+            { image: Minnesota3, title: "Minneapolis Sculpture Garden", description: "Um dos maiores jardins de esculturas ao ar livre do mundo, com obras famosas e vistas do centro de Minneapolis."},
+            { image: Minnesota4, title: "Voyageurs National Park", description: "Um parque nacional famoso pelos lagos tranquilos, perfeitos para atividades como canoagem, pesca e observação de vida selvagem."},
         ],
     },
     {
@@ -392,10 +447,10 @@ const states = [
         description: "Mississippi, conhecido como o 'Magnolia State', é um estado com uma rica herança cultural e histórica, especialmente na música e na literatura. Com suas paisagens tranquilas, rios, e cidades históricas, Mississippi oferece uma imersão nas raízes profundas do sul dos Estados Unidos, além de ser o berço do blues e da cultura de plantação.",
         cards: [
             { image: Mississippi1, title: "Vicksburg National Military Park", description: "Um parque histórico que preserva o local da Batalha de Vicksburg durante a Guerra Civil Americana, com monumentos e museus."},
-            { image: "Mississippi2", title: "Natchez Trace Parkway", description: "Uma estrada cênica histórica, famosa por suas vistas panorâmicas, trilhas para caminhada e importância histórica como rota indígena e colonial."},
-            { image: "Mississippi3", title: "Graceland Too", description: "A famosa casa de exposição dedicada à vida e à carreira de Elvis Presley, localizada em Tupelo, cidade natal do Rei do Rock."},
-            { image: "Mississippi4", title: "Beale Street", description: "Localizada em Memphis, próxima à fronteira com Mississippi, Beale Street é famosa por sua história musical, sendo o berço do blues."},
-            { image: "Mississippi5", title: "Mississippi River", description: "O lendário rio Mississippi oferece passeios de barco, pesca e vistas incríveis, sendo uma das principais atrações naturais do estado."},
+            { image: Mississippi2, title: "Natchez Trace Parkway", description: "Uma estrada cênica histórica, famosa por suas vistas panorâmicas, trilhas para caminhada e importância histórica como rota indígena e colonial."},
+            { image: Mississippi3, title: "Graceland Too", description: "A famosa casa de exposição dedicada à vida e à carreira de Elvis Presley, localizada em Tupelo, cidade natal do Rei do Rock."},
+            { image: Mississippi4, title: "Beale Street", description: "Localizada em Memphis, próxima à fronteira com Mississippi, Beale Street é famosa por sua história musical, sendo o berço do blues."},
+            { image: Mississippi5, title: "Mississippi River", description: "O lendário rio Mississippi oferece passeios de barco, pesca e vistas incríveis, sendo uma das principais atrações naturais do estado."},
         ],
     },
     {
@@ -403,10 +458,10 @@ const states = [
         description: "Missouri, conhecido como o 'Show-Me State', é um estado repleto de história, cultura e belezas naturais. Com suas cidades vibrantes, como St. Louis e Kansas City, e marcos históricos como o Gateway Arch, Missouri oferece uma mistura única de atrações urbanas e aventuras ao ar livre, além de ser famoso por sua música, culinária e paisagens deslumbrantes.",
         cards: [
             { image: Missouri1, title: "Gateway Arch", description: "O icônico arco de 192 metros em St. Louis, símbolo do pioneirismo americano, oferece vistas panorâmicas da cidade e do Rio Mississippi."},
-            { image: "Missouri2", title: "Lake of the Ozarks", description: "Um grande lago no centro de Missouri, famoso por suas praias, atividades náuticas, trilhas e resorts à beira do lago."},
-            { image: "Missouri3", title: "Silver Dollar City", description: "Um parque temático no estilo do Velho Oeste, em Branson, com montanhas-russas, shows ao vivo e muitas atrações familiares."},
-            { image: "Missouri4", title: "Kansas City", description: "Famosa por sua cena musical de jazz, culinária com churrasco e atrações como o Nelson-Atkins Museum of Art e o Kansas City Zoo."},
-            { image: "Missouri5", title: "Mark Twain National Forest", description: "Uma grande área de floresta e trilhas para caminhada, acampamento e observação de vida selvagem, homenageando o famoso autor Mark Twain."},
+            { image: Missouri2, title: "Lake of the Ozarks", description: "Um grande lago no centro de Missouri, famoso por suas praias, atividades náuticas, trilhas e resorts à beira do lago."},
+            { image: Missouri3, title: "Silver Dollar City", description: "Um parque temático no estilo do Velho Oeste, em Branson, com montanhas-russas, shows ao vivo e muitas atrações familiares."},
+            { image: Missouri4, title: "Kansas City", description: "Famosa por sua cena musical de jazz, culinária com churrasco e atrações como o Nelson-Atkins Museum of Art e o Kansas City Zoo."},
+            { image: Missouri5, title: "Mark Twain National Forest", description: "Uma grande área de floresta e trilhas para caminhada, acampamento e observação de vida selvagem, homenageando o famoso autor Mark Twain."},
         ],
     },
     {
@@ -414,10 +469,10 @@ const states = [
         description: "Montana, conhecido como o 'Big Sky Country', é um estado deslumbrante com vastas paisagens naturais, incluindo montanhas imponentes, planícies abertas e parques nacionais. Com uma rica história de cultura indígena e pioneira, Montana oferece aventuras ao ar livre incomparáveis, desde trilhas nas Montanhas Rochosas até experiências únicas de observação de vida selvagem.",
         cards: [
             { image: Montana1, title: "Glacier National Park", description: "Um dos parques nacionais mais bonitos dos EUA, famoso por suas montanhas majestosas, lagos cristalinos e trilhas desafiadoras."},
-            { image: "Montana2", title: "Yellowstone National Park", description: "O primeiro parque nacional do mundo, estendendo-se até Montana, com gêiseres, fontes termais e uma abundante vida selvagem."},
-            { image: "Montana3", title: "Missouri River", description: "O famoso rio que atravessa Montana oferece passeios de barco, pesca e trilhas ao longo de suas margens."},
-            { image: "Montana4", title: "Big Sky Resort", description: "Um destino popular para esqui e snowboard durante o inverno, e uma excelente opção para atividades ao ar livre no verão, como trilhas e ciclismo."},
-            { image: "Montana5", title: "Flathead Lake", description: "O maior lago de água doce de Montana, perfeito para atividades aquáticas como navegação, pesca e passeios de barco."},
+            { image: Montana2, title: "Yellowstone National Park", description: "O primeiro parque nacional do mundo, estendendo-se até Montana, com gêiseres, fontes termais e uma abundante vida selvagem."},
+            { image: Montana3, title: "Missouri River", description: "O famoso rio que atravessa Montana oferece passeios de barco, pesca e trilhas ao longo de suas margens."},
+            { image: Montana4, title: "Big Sky Resort", description: "Um destino popular para esqui e snowboard durante o inverno, e uma excelente opção para atividades ao ar livre no verão, como trilhas e ciclismo."},
+            { image: Montana5, title: "Flathead Lake", description: "O maior lago de água doce de Montana, perfeito para atividades aquáticas como navegação, pesca e passeios de barco."},
         ],
     },
     {
@@ -425,10 +480,10 @@ const states = [
         description: "Nebraska, conhecido como o 'Cornhusker State', é um estado repleto de vastas planícies, paisagens agrícolas e uma rica história do Velho Oeste. Com suas pequenas cidades encantadoras e grandes espaços ao ar livre, Nebraska oferece uma experiência autêntica de vida rural, além de atrações históricas e culturais que celebram a herança do estado.",
         cards: [
             { image: Nebraska1, title: "Chimney Rock", description: "Uma das formações geológicas mais famosas do oeste americano, Chimney Rock foi um marco para os pioneiros que atravessavam a Rota Oregon."},
-            { image: "Nebraska2", title: "Omaha", description: "A maior cidade do estado, conhecida por sua cena gastronômica, o Henry Doorly Zoo e o histórico Old Market District."},
-            { image: "Nebraska3", title: "Carhenge", description: "Uma réplica da famosa Stonehenge, feita com carros, localizada em Alliance, Nebraska, oferecendo uma visão única e artística."},
-            { image: "Nebraska4", title: "Niobrara National Scenic River", description: "Uma área cênica com oportunidades para rafting, canoagem e caminhadas, além de vistas deslumbrantes da vida selvagem e do rio."},
-            { image: "Nebraska5", title: "Scotts Bluff National Monument", description: "Um parque que preserva um importante marco geológico e histórico, com trilhas que oferecem vistas panorâmicas das planícies e formações rochosas."},
+            { image: Nebraska2, title: "Omaha", description: "A maior cidade do estado, conhecida por sua cena gastronômica, o Henry Doorly Zoo e o histórico Old Market District."},
+            { image: Nebraska3, title: "Carhenge", description: "Uma réplica da famosa Stonehenge, feita com carros, localizada em Alliance, Nebraska, oferecendo uma visão única e artística."},
+            { image: Nebraska4, title: "Niobrara National Scenic River", description: "Uma área cênica com oportunidades para rafting, canoagem e caminhadas, além de vistas deslumbrantes."},
+            { image: Nebraska5, title: "Scotts Bluff National Monument", description: "Um parque que preserva um importante marco geológico e histórico, com trilhas que tem vistas panorâmicas das planícies."},
         ],
     },
     {
@@ -436,10 +491,10 @@ const states = [
         description: "Nevada, conhecido como o 'Silver State', é um destino vibrante que combina o brilho das luzes de Las Vegas com vastas paisagens desérticas e maravilhas naturais. Famoso por seus cassinos, shows e vida noturna, Nevada também oferece uma variedade de atividades ao ar livre, como caminhadas nas Montanhas da Sierra, exploração do Lago Tahoe e aventuras no deserto de Mojave.",
         cards: [
             { image: Nevada1, title: "Las Vegas", description: "A capital mundial do entretenimento, famosa por seus cassinos, shows deslumbrantes, restaurantes de renome e vida noturna agitada."},
-            { image: "Nevada2", title: "Lake Tahoe", description: "Um deslumbrante lago alpino nas fronteiras de Nevada e Califórnia, perfeito para atividades ao ar livre, como esqui no inverno e passeios de barco no verão."},
-            { image: "Nevada3", title: "Red Rock Canyon", description: "Uma área de preservação natural perto de Las Vegas, famosa pelas imponentes formações rochosas vermelhas, trilhas para caminhada e oportunidades de escalada."},
-            { image: "Nevada4", title: "Reno", description: "Conhecida como a 'Maior Pequena Cidade do Mundo', Reno oferece cassinos, festivais e eventos culturais, além de ser um excelente ponto de partida para explorar o norte de Nevada."},
-            { image: "Nevada5", title: "Great Basin National Park", description: "Um parque nacional de beleza impressionante, oferecendo trilhas, cavernas, observação de estrelas e a majestosa árvore de pinheiro bristlecone, com mais de 4.000 anos."},
+            { image: Nevada2, title: "Lake Tahoe", description: "Um deslumbrante lago alpino nas fronteiras de Nevada e Califórnia, perfeito para atividades ao ar livre, como esqui no inverno e passeios de barco no verão."},
+            { image: Nevada3, title: "Red Rock Canyon", description: "Uma área de preservação natural perto de Las Vegas, famosa pelas imponentes formações rochosas vermelhas, trilhas para caminhada e oportunidades de escalada."},
+            { image: Nevada4, title: "Reno", description: "Conhecida como a 'Maior Pequena Cidade do Mundo', Reno oferece cassinos, festivais e eventos culturais."},
+            { image: Nevada5, title: "Great Basin National Park", description: "Um parque nacional de beleza impressionante, oferecendo trilhas, cavernas, observação de estrelas e a majestosa árvore de pinheiro bristlecone."},
         ],
     },
     {
@@ -447,10 +502,10 @@ const states = [
         description: "New Hampshire, conhecido como o 'Granite State', é famoso por suas montanhas majestosas, florestas exuberantes e belas costas. Oferecendo uma mistura de história colonial, atividades ao ar livre e cidades encantadoras, o estado é perfeito para quem busca aventuras na natureza ou momentos de relaxamento. Sua rica herança e paisagens deslumbrantes o tornam um destino imperdível na região da Nova Inglaterra.",
         cards: [
             { image: NewHampshire1, title: "White Mountain National Forest", description: "Uma vasta área de florestas e montanhas, oferecendo trilhas para caminhadas, esqui no inverno e vistas panorâmicas deslumbrantes."},
-            { image: "NewHampshire2", title: "Lake Winnipesaukee", description: "O maior lago de New Hampshire, perfeito para atividades como navegação, pesca, natação e caminhadas ao redor das suas margens."},
-            { image: "NewHampshire3", title: "Portsmouth", description: "Uma cidade histórica na costa, famosa por seu centro encantador, restaurantes de frutos do mar e a rica herança marítima."},
-            { image: "NewHampshire4", title: "Mount Washington", description: "A montanha mais alta do nordeste dos Estados Unidos, com vistas espetaculares e um famoso trem de montanha que leva até o topo."},
-            { image: "NewHampshire5", title: "Kancamagus Highway", description: "Uma estrada cênica de 56 km que atravessa as montanhas de White Mountain, oferecendo vistas espetaculares e oportunidades para atividades ao ar livre."},
+            { image: NewHampshire2, title: "Lake Winnipesaukee", description: "O maior lago de New Hampshire, perfeito para atividades como navegação, pesca, natação e caminhadas ao redor das suas margens."},
+            { image: NewHampshire3, title: "Portsmouth", description: "Uma cidade histórica na costa, famosa por seu centro encantador, restaurantes de frutos do mar e a rica herança marítima."},
+            { image: NewHampshire4, title: "Mount Washington", description: "A montanha mais alta do nordeste dos Estados Unidos, com vistas espetaculares e um famoso trem de montanha que leva até o topo."},
+            { image: NewHampshire5, title: "Kancamagus Highway", description: "Uma estrada cênica de 56 km que atravessa as montanhas de White Mountain, oferecendo vistas espetaculares e oportunidades para atividades ao ar livre."},
         ],
     },
     {
@@ -458,10 +513,9 @@ const states = [
         description: "New Jersey, conhecido como o 'Garden State', é famoso por suas praias ao longo do Atlântico, suas cidades dinâmicas e sua proximidade com grandes centros urbanos como Nova York e Filadélfia. Com uma rica história, áreas naturais preservadas e uma cena cultural vibrante, New Jersey oferece uma combinação única de paisagens urbanas e costeiras, além de ser um excelente destino para quem busca entretenimento e lazer.",
         cards: [
             { image: NewJersey1, title: "Atlantic City", description: "Famosa por seus cassinos, lojas de luxo e a icônica boardwalk à beira-mar, Atlantic City é um destino popular para entretenimento e turismo."},
-            { image: "NewJersey2", title: "Cape May", description: "Uma charmosa cidade costeira conhecida por suas casas vitorianas bem preservadas, praias tranquilas e uma atmosfera histórica e relaxante."},
-            { image: "NewJersey3", title: "Princeton University", description: "Uma das universidades mais prestigiadas dos Estados Unidos, localizada em uma cidade encantadora, com jardins e arquitetura histórica."},
-            { image: "NewJersey4", title: "Liberty State Park", description: "Um parque urbano que oferece vistas incríveis da Estátua da Liberdade e da linha do horizonte de Manhattan, além de trilhas e passeios de barco."},
-            { image: "NewJersey5", title: "Delaware Water Gap National Recreation Area", description: "Uma área de recreação natural, oferecendo trilhas para caminhada, rafting e vistas panorâmicas do Rio Delaware e das montanhas Pocono."},
+            { image: NewJersey2, title: "Cape May", description: "Uma charmosa cidade costeira conhecida por suas casas vitorianas bem preservadas, praias tranquilas e uma atmosfera histórica e relaxante."},
+            { image: NewJersey3, title: "Princeton University", description: "Uma das universidades mais prestigiadas dos Estados Unidos, localizada em uma cidade encantadora, com jardins e arquitetura histórica."},
+            { image: NewJersey5, title: "Delaware Water Gap National Recreation Area", description: "Uma área de recreação natural, oferecendo trilhas para caminhada, rafting e vistas panorâmicas do Rio Delaware e das montanhas Pocono."},
         ],
     },
     {
@@ -469,21 +523,21 @@ const states = [
         description: "New Mexico, conhecido como o 'Land of Enchantment', é um estado cheio de paisagens deslumbrantes, cultura rica e história fascinante. Famoso por sua herança indígena, arte vibrante e gastronomia única, New Mexico oferece desde deserto e montanhas até cidades históricas, com uma forte influência de culturas nativas e espanholas. É o destino ideal para quem busca explorar o velho oeste e viver experiências autênticas.",
         cards: [
             { image: NewMexico1, title: "Santa Fe", description: "A capital de New Mexico, famosa por sua arquitetura de adobe, galerias de arte, museus e um centro histórico encantador."},
-            { image: "NewMexico2", title: "Carlsbad Caverns National Park", description: "Um dos parques nacionais mais impressionantes dos EUA, com mais de 119 cavernas e uma paisagem subterrânea deslumbrante."},
-            { image: "NewMexico3", title: "Albuquerque", description: "Conhecida por sua rica cultura, o Festival Internacional de Balões e o Old Town, com arquitetura colonial e lojas de artesanato."},
-            { image: "NewMexico4", title: "White Sands National Park", description: "Um parque único com dunas de areia branca e fofa, perfeito para caminhadas e passeios de jipe, com vistas incríveis."},
-            { image: "NewMexico5", title: "Taos", description: "Uma cidade histórica nas montanhas, famosa por sua arte, arquitetura e paisagens, além de ser um excelente local para esportes ao ar livre."},
+            { image: NewMexico2, title: "Carlsbad Caverns National Park", description: "Um dos parques nacionais mais impressionantes dos EUA, com mais de 119 cavernas e uma paisagem subterrânea deslumbrante."},
+            { image: NewMexico3, title: "Albuquerque", description: "Conhecida por sua rica cultura, o Festival Internacional de Balões e o Old Town, com arquitetura colonial e lojas de artesanato."},
+            { image: NewMexico4, title: "White Sands National Park", description: "Um parque único com dunas de areia branca e fofa, perfeito para caminhadas e passeios de jipe, com vistas incríveis."},
+            { image: NewMexico5, title: "Taos", description: "Uma cidade histórica nas montanhas, famosa por sua arte, arquitetura e paisagens, além de ser um excelente local para esportes ao ar livre."},
         ],
     },
     {
         name: "New York",
         description: "New York, o 'Empire State', é um dos estados mais icônicos dos Estados Unidos, famoso por sua vibrante cidade de Nova York, montanhas Adirondack, e rica diversidade cultural. Desde os arranha-céus de Manhattan até as paisagens serenas dos lagos e parques do interior, New York oferece uma experiência única, com atrações culturais, históricas e naturais para todos os gostos.",
         cards: [
-            { image: NewYork1, title: "Times Square", description: "O coração pulsante de Manhattan, famoso por seus enormes painéis de LED, teatros da Broadway e a energia constante, especialmente durante a véspera de Ano Novo."},
-            { image: "NewYork2", title: "Central Park", description: "Um oásis verde no meio de Manhattan, perfeito para caminhadas, passeios de barco e atividades ao ar livre, além de ser um dos parques urbanos mais famosos do mundo."},
-            { image: "NewYork3", title: "Estátua da Liberdade", description: "Símbolo da liberdade e democracia dos Estados Unidos, localizada na Liberty Island, oferecendo passeios de barco e uma vista incrível de Nova York."},
-            { image: "NewYork4", title: "Niagara Falls", description: "Uma das maiores e mais impressionantes quedas d'água do mundo, localizada na fronteira entre os EUA e o Canadá, oferecendo vistas espetaculares e atividades como passeios de barco."},
-            { image: "NewYork5", title: "The Adirondacks", description: "Uma região montanhosa no norte do estado, famosa por suas trilhas, lagos e oportunidades para atividades ao ar livre como esqui, caminhada e camping."},
+            { image: NewYork1, title: "Times Square", description: "O coração pulsante de Manhattan, famoso por seus enormes painéis de LED, teatros da Broadway e a energia constante, especialmente no Ano Novo."},
+            { image: NewYork2, title: "Central Park", description: "Um oásis verde no meio de Manhattan, perfeito para caminhadas e atividades ao ar livre, além de ser um dos parques urbanos mais famosos do mundo."},
+            { image: NewYork3, title: "Liberty State Park", description: "Um parque urbano que oferece vistas incríveis da Estátua da Liberdade e da linha do horizonte de Manhattan, além de trilhas e passeios de barco."},
+            { image: NewYork4, title: "Niagara Falls", description: "Uma das maiores e mais impressionantes quedas d'água do mundo, localizada na fronteira entre os EUA e o Canadá, oferecendo vistas espetaculares."},
+            { image: NewYork5, title: "The Adirondacks", description: "Uma região montanhosa no norte do estado, famosa por suas trilhas, lagos e oportunidades para atividades ao ar livre como esqui, caminhada e camping."},
         ],
     },
     {
