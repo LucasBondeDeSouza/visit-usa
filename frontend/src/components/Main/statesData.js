@@ -235,18 +235,46 @@ import Texas4 from "../../public/images/texas4.jpg"
 import Texas5 from "../../public/images/texas5.avif"
 
 import Utah1 from "../../public/images/utah1.jpg"
+import Utah2 from "../../public/images/utah2.jpg"
+import Utah3 from "../../public/images/utah3.jpeg"
+import Utah4 from "../../public/images/utah4.avif"
+import Utah5 from "../../public/images/utah5.jpg"
 
 import Vermont1 from "../../public/images/vermont1.jpg"
+import Vermont2 from "../../public/images/vermont2.jpg"
+import Vermont3 from "../../public/images/vermont3.jpeg"
+import Vermont4 from "../../public/images/vermont4.jpg"
+import Vermont5 from "../../public/images/vermont5.jpg"
 
 import Virginia1 from "../../public/images/virginia1.jpg"
+import Virginia2 from "../../public/images/virginia2.webp"
+import Virginia3 from "../../public/images/virginia3.jpg"
+import Virginia4 from "../../public/images/virginia4.jpg"
+import Virginia5 from "../../public/images/virginia5.jpg"
 
-import Washington1 from "../../public/images/washington1.jpg"
+import Washington1 from "../../public/images/washington1.webp"
+import Washington2 from "../../public/images/washington2.webp"
+import Washington3 from "../../public/images/washington3.webp"
+import Washington4 from "../../public/images/washington4.jpg"
+import Washington5 from "../../public/images/washington5.avif"
 
 import WestVirginia1 from "../../public/images/west-virginia1.jpg"
+import WestVirginia2 from "../../public/images/west-virginia2.jpg"
+import WestVirginia3 from "../../public/images/west-virginia3.jpg"
+import WestVirginia4 from "../../public/images/west-virginia4.jpg"
+import WestVirginia5 from "../../public/images/west-virginia5.jpg"
 
 import Wisconsin1 from "../../public/images/wisconsin1.jpg"
+import Wisconsin2 from "../../public/images/wisconsin2.webp"
+import Wisconsin3 from "../../public/images/wisconsin3.jpg"
+import Wisconsin4 from "../../public/images/wisconsin4.jpg"
+import Wisconsin5 from "../../public/images/wisconsin5.jpg"
 
 import Wyoming1 from "../../public/images/wyoming1.jpg"
+import Wyoming2 from "../../public/images/wyoming2.webp"
+import Wyoming3 from "../../public/images/wyoming3.jpg"
+import Wyoming4 from "../../public/images/wyoming4.jpg"
+import Wyoming5 from "../../public/images/wyoming5.jpg"
 
 const states = [
     {
@@ -699,22 +727,22 @@ const states = [
         name: "Utah",
         description: "Utah, conhecido como o 'Beehive State', é um destino famoso por suas paisagens naturais impressionantes, incluindo alguns dos parques nacionais mais icônicos dos Estados Unidos. Desde as formações rochosas únicas até as vastas áreas de desertos e montanhas, Utah é um paraíso para os amantes da natureza e aventureiros.",
         cards: [
-            { image: Utah1, title: "Zion National Park", description: "Famoso por suas imponentes paredes de arenito vermelho, Zion oferece trilhas desafiadoras, como a Angel's Landing, e paisagens espetaculares para exploração ao ar livre."},
-            { image: "Utah2", title: "Arches National Park", description: "Conhecido por suas impressionantes formações rochosas e arcos naturais de arenito, o parque oferece trilhas fáceis e vistas de tirar o fôlego."},
-            { image: "Utah3", title: "Salt Lake City", description: "A capital de Utah, conhecida por sua história mormon e pelo Great Salt Lake, oferece museus, arquitetura e uma cena cultural vibrante."},
-            { image: "Utah4", title: "Bryce Canyon National Park", description: "Famoso por suas formações rochosas únicas chamadas hoodoos, Bryce Canyon oferece uma vista incrível, especialmente ao amanhecer e ao entardecer."},
-            { image: "Utah5", title: "Park City", description: "Uma cidade de esqui e resort de montanha, famosa por suas pistas de esqui e pelo Sundance Film Festival, um dos maiores e mais prestigiados festivais de cinema."},
+            { image: Utah1, title: "Zion National Park", description: "Famoso por suas imponentes paredes de arenito vermelho, Zion oferece trilhas, como a Angel's Landing, e paisagens espetaculares para exploração ao ar livre."},
+            { image: Utah2, title: "Arches National Park", description: "Conhecido por suas impressionantes formações rochosas e arcos naturais de arenito, o parque oferece trilhas fáceis e vistas de tirar o fôlego."},
+            { image: Utah3, title: "Salt Lake City", description: "A capital de Utah, conhecida por sua história mormon e pelo Great Salt Lake, oferece museus, arquitetura e uma cena cultural vibrante."},
+            { image: Utah4, title: "Bryce Canyon National Park", description: "Famoso por suas formações rochosas únicas chamadas hoodoos, Bryce Canyon oferece uma vista incrível, especialmente ao amanhecer e ao entardecer."},
+            { image: Utah5, title: "Park City", description: "Uma cidade de esqui e resort de montanha, famosa por suas pistas de esqui e pelo Sundance Film Festival, um dos maiores e mais prestigiados festivais de cinema."},
         ],
     },
     {
         name: "Vermont",
         description: "Vermont, conhecido como o 'Green Mountain State', é um estado pitoresco cheio de belezas naturais, charmosas pequenas cidades e uma forte tradição em atividades ao ar livre. Famoso por suas paisagens montanhosas, folhas de outono deslumbrantes e sua produção de xarope de bordo, Vermont oferece uma experiência tranquila e acolhedora em todas as estações do ano.",
         cards: [
-            { image: Vermont1, title: "Stowe", description: "Uma das cidades mais conhecidas de Vermont, famosa por suas estações de esqui, vistas deslumbrantes das montanhas Green e uma atmosfera acolhedora de cidade pequena."},
-            { image: "Vermont2", title: "Lake Champlain", description: "Um grande lago que faz fronteira com o estado de Nova York e o Canadá, oferecendo atividades como passeios de barco, pesca e observação de aves."},
-            { image: "Vermont3", title: "Montpelier", description: "A menor capital do estado, conhecida por sua arquitetura charmosa, ruas tranquilas e proximidade com a natureza, ideal para explorar a pé ou de bicicleta."},
-            { image: "Vermont4", title: "Ben & Jerry's Factory Tour", description: "Visite a famosa fábrica de sorvetes em Waterbury, onde você pode aprender sobre a história da marca e saborear deliciosos sabores exclusivos."},
-            { image: "Vermont5", title: "Green Mountain National Forest", description: "Uma vasta área de floresta que oferece uma grande variedade de trilhas para caminhadas, acampamentos, ciclismo e observação da vida selvagem, especialmente colorida durante o outono."},
+            { image: Vermont1, title: "Stowe", description: "Uma das cidades mais conhecidas de Vermont, famosa por suas estações de esqui, vistas deslumbrantes das montanhas Green e uma atmosfera acolhedora."},
+            { image: Vermont2, title: "Lake Champlain", description: "Um grande lago que faz fronteira com o estado de Nova York e o Canadá, oferecendo atividades como passeios de barco, pesca e observação de aves."},
+            { image: Vermont3, title: "Montpelier", description: "A menor capital do estado, conhecida por sua arquitetura charmosa, ruas tranquilas e proximidade com a natureza, ideal para explorar a pé ou de bicicleta."},
+            { image: Vermont4, title: "Ben & Jerry's Factory Tour", description: "Visite a famosa fábrica de sorvetes em Waterbury, onde você pode aprender sobre a história da marca e saborear deliciosos sabores exclusivos."},
+            { image: Vermont5, title: "Green Mountain National Forest", description: "Uma floresta com trilhas para caminhadas, acampamentos, ciclismo e vida selvagem, especialmente vibrante no outono."},
         ],
     },
     {
@@ -722,43 +750,43 @@ const states = [
         description: "Virginia, conhecido como o 'Old Dominion State', é um estado repleto de história, cultura e beleza natural. Famoso por ser o berço da nação, Virginia oferece uma rica herança colonial, paisagens montanhosas deslumbrantes e praias relaxantes, além de cidades vibrantes e locais históricos importantes, como a casa de George Washington e a batalha de Gettysburg.",
         cards: [
             { image: Virginia1, title: "Virginia Beach", description: "Uma famosa cidade litorânea conhecida por suas praias extensas, atividades aquáticas, vida noturna animada e o famoso calçadão à beira-mar."},
-            { image: "Virginia2", title: "Shenandoah National Park", description: "Com suas vistas panorâmicas das Montanhas Apalaches, o parque oferece trilhas deslumbrantes, incluindo a famosa Skyline Drive, ideal para caminhadas, acampamentos e observação de vida selvagem."},
-            { image: "Virginia3", title: "Colonial Williamsburg", description: "Um dos destinos históricos mais importantes do país, onde você pode explorar a cidade restaurada à época colonial, com edifícios históricos e atores interpretando cenas da vida do século XVIII."},
-            { image: "Virginia4", title: "Monticello", description: "A casa de Thomas Jefferson, projetada por ele próprio, localizada em Charlottesville, é um importante marco histórico, com belos jardins e vistas panorâmicas."},
-            { image: "Virginia5", title: "Luray Caverns", description: "Uma das maiores e mais impressionantes cavernas dos Estados Unidos, famosa por suas estalagmites e estalactites, e um dos principais destinos de turismo subterrâneo."},
+            { image: Virginia2, title: "Shenandoah National Park", description: "Com panorâmicas dos Apalaches, o parque oferece trilhas, como a Skyline Drive, perfeitas para caminhadas, acampamentos e observação da vida selvagem."},
+            { image: Virginia3, title: "Colonial Williamsburg", description: "Um importante destino histórico, onde você explora a cidade colonial restaurada, com edifícios antigos e atores recriando cenas do século XVIII."},
+            { image: Virginia4, title: "Monticello", description: "A casa de Thomas Jefferson, projetada por ele próprio, localizada em Charlottesville, é um importante marco histórico, com belos jardins e vistas panorâmicas."},
+            { image: Virginia5, title: "Luray Caverns", description: "Uma das mais impressionantes cavernas dos Estados Unidos, famosa por suas estalagmites e estalactites, e um dos principais destinos de turismo subterrâneo."},
         ],
     },
     {
         name: "Washington",
         description: "Washington, conhecido como o 'Evergreen State', é famoso por suas paisagens naturais deslumbrantes, que incluem vastas florestas, montanhas cobertas de neve e costas cênicas. Além de sua beleza natural, o estado é conhecido por ser o lar de Seattle, uma cidade vibrante com uma cena tecnológica em expansão, cultura rica e ícones como o Space Needle.",
         cards: [
-            { image: Washington1, title: "Seattle", description: "A maior cidade do estado, famosa pelo Space Needle, Pike Place Market, e a vibrante cena musical. Seattle também é um centro tecnológico, lar de empresas como a Amazon."},
-            { image: "Washington2", title: "Mount Rainier National Park", description: "Lar do icônico Mount Rainier, o parque oferece trilhas, vistas deslumbrantes e oportunidades para explorar florestas, lagos alpinos e glaciares."},
-            { image: "Washington3", title: "Leavenworth", description: "Uma charmosa cidade com temática bávara nas montanhas Cascade, conhecida por seus festivais, mercados e arquitetura pintoresca, especialmente encantadora no outono e inverno."},
-            { image: "Washington4", title: "Olympic National Park", description: "Um parque nacional diverso que vai desde florestas temperadas e praias ao longo da costa do Pacífico até montanhas cobertas de neve, ideal para caminhadas, observação da vida selvagem e campismo."},
-            { image: "Washington5", title: "San Juan Islands", description: "Um arquipélago encantador no noroeste do estado, perfeito para passeios de barco, observação de baleias, e desfrutar da tranquilidade e beleza natural das ilhas."},
+            { image: Washington5, title: "Memorial Lincoln", description: "Um monumento icônico de Washington, D.C., que homenageia Abraham Lincoln com uma estátua monumental e trechos de seus discursos."},
+            { image: Washington1, title: "Seattle", description: "A maior cidade do estado, famosa pelo Space Needle, Pike Place Market e sua cena musical, além de ser um centro tecnológico, lar da Amazon."},
+            { image: Washington2, title: "Mount Rainier National Park", description: "Lar do icônico Mount Rainier, o parque oferece trilhas, vistas deslumbrantes e oportunidades para explorar florestas, lagos alpinos e glaciares."},
+            { image: Washington3, title: "Leavenworth", description: "Uma charmosa cidade bávara nas montanhas Cascade, conhecida por festivais, mercados e arquitetura pintoresca, especialmente no outono e inverno."},
+            { image: Washington4, title: "Olympic National Park", description: "Um parque nacional diverso, com florestas temperadas, praias do Pacífico e montanhas nevadas, ideal para caminhadas, vida selvagem e campismo."},
         ],
     },
     {
         name: "West Virginia",
         description: "West Virginia, conhecido como o 'Mountain State', é um estado caracterizado por suas paisagens montanhosas deslumbrantes, florestas exuberantes e uma rica herança cultural. Famoso por suas atividades ao ar livre, incluindo trilhas, rafting e escalada, West Virginia também oferece uma profunda conexão com a história americana, sendo um lugar ideal para os amantes da natureza e da história.",
         cards: [
-            { image: WestVirginia1, title: "New River Gorge", description: "Um dos destinos de rafting mais populares do país, New River Gorge oferece também trilhas deslumbrantes, vistas impressionantes e a famosa ponte que atravessa o cânion."},
-            { image: "WestVirginia2", title: "Harpers Ferry", description: "Uma cidade histórica que desempenhou um papel crucial durante a Guerra Civil Americana, Harpers Ferry oferece ruas pitorescas, museus e trilhas no Parque Nacional de Harpers Ferry."},
-            { image: "WestVirginia3", title: "Canaan Valley", description: "Um vale montanhoso perfeito para atividades ao ar livre durante todo o ano, como esqui no inverno e caminhadas e observação da vida selvagem no verão."},
-            { image: "WestVirginia4", title: "Seneca Rocks", description: "Um ponto de escalada famoso, Seneca Rocks é uma formação rochosa imponente com vistas panorâmicas das montanhas de Allegheny, ideal para aventureiros e amantes de trilhas."},
-            { image: "WestVirginia5", title: "Blackwater Falls State Park", description: "Famoso pelas suas espetaculares quedas d'água, este parque oferece trilhas, pesca e uma imersão completa na natureza das montanhas de West Virginia."},
+            { image: WestVirginia1, title: "New River Gorge", description: "Um dos destinos de rafting mais populares, New River Gorge oferece trilhas, vistas incríveis e uma famosa ponte sobre o cânion."},
+            { image: WestVirginia2, title: "Harpers Ferry", description: "Uma cidade histórica da Guerra Civil Americana, Harpers Ferry oferece ruas pitorescas, museus e trilhas no parque nacional."},
+            { image: WestVirginia3, title: "Canaan Valley", description: "Um vale montanhoso perfeito para atividades ao ar livre durante todo o ano, como esqui no inverno e caminhadas e observação da vida selvagem no verão."},
+            { image: WestVirginia4, title: "Seneca Rocks", description: "Famoso ponto de escalada, Seneca Rocks oferece vistas panorâmicas das montanhas de Allegheny, ideal para aventureiros e trilheiros."},
+            { image: WestVirginia5, title: "Blackwater Falls State Park", description: "Famoso pelas suas espetaculares quedas d'água, este parque oferece trilhas, pesca e uma imersão completa na natureza das montanhas de West Virginia."},
         ],
     },
     {
         name: "Wisconsin",
         description: "Wisconsin, conhecido como o 'Badger State', é um estado repleto de paisagens diversas, desde os lagos cristalinos do norte até as colinas suaves do sul. Famoso por sua produção de queijo, suas cidades vibrantes e sua rica cultura, Wisconsin oferece muitas atividades ao ar livre, incluindo caminhadas, ciclismo e esportes aquáticos, além de eventos culturais e gastronômicos de renome.",
         cards: [
-            { image: Wisconsin1, title: "Milwaukee", description: "A maior cidade do estado, conhecida pela cerveja, museus e vida cultural vibrante. Milwaukee é famosa por seu Festival de Música e pela impressionante arquitetura à beira do Lago Michigan."},
-            { image: "Wisconsin2", title: "Door County", description: "Uma península encantadora com vilarejos pitorescos, faróis históricos e belas paisagens costeiras, Door County é um destino ideal para relaxamento e atividades ao ar livre."},
-            { image: "Wisconsin3", title: "Devil's Lake State Park", description: "Famoso por suas impressionantes falésias e águas claras, Devil's Lake oferece trilhas, acampamentos e oportunidades para natação e esportes aquáticos."},
-            { image: "Wisconsin4", title: "Madison", description: "A capital do estado, famosa pela Universidade de Wisconsin, lagos e uma cena cultural vibrante. Madison oferece uma mistura de atividades ao ar livre, museus e restaurantes incríveis."},
-            { image: "Wisconsin5", title: "Wisconsin Dells", description: "Conhecida como a 'Capital Mundial das Águas', Wisconsin Dells é famosa por suas formações rochosas únicas, parques aquáticos e atividades ao ar livre, incluindo passeios de barco e rafting."},
+            { image: Wisconsin1, title: "Milwaukee", description: "A maior cidade do estado, Milwaukee é famosa pela cerveja, museus, vida cultural vibrante e arquitetura à beira do Lago Michigan."},
+            { image: Wisconsin2, title: "Door County", description: "Uma península encantadora com vilarejos pitorescos, faróis históricos e belas paisagens costeiras, Door County é um destino ideal para relaxamento e atividades ao ar livre."},
+            { image: Wisconsin3, title: "Devil's Lake State Park", description: "Famoso por suas impressionantes falésias e águas claras, Devil's Lake oferece trilhas, acampamentos e oportunidades para natação e esportes aquáticos."},
+            { image: Wisconsin4, title: "Madison", description: "A capital do estado, famosa pela Universidade de Wisconsin, lagos e uma cena cultural vibrante. Madison oferece uma mistura de atividades ao ar livre, museus e restaurantes."},
+            { image: Wisconsin5, title: "Wisconsin Dells", description: "Wisconsin Dells, a 'Capital Mundial das Águas', é famosa por suas formações rochosas, parques aquáticos e atividades como passeios de barco e rafting."},
         ],
     },
     {
@@ -766,10 +794,10 @@ const states = [
         description: "Wyoming, conhecido como o 'Equality State', é um estado com vastas paisagens selvagens, montanhas majestosas e parques nacionais icônicos. Famoso por sua natureza intocada e pelo Yellowstone, o primeiro parque nacional do mundo, Wyoming oferece aos visitantes aventuras ao ar livre inigualáveis, vida selvagem impressionante e uma sensação de liberdade e tranquilidade em meio à sua imensidão.",
         cards: [
             { image: Wyoming1, title: "Yellowstone National Park", description: "O primeiro parque nacional do mundo, conhecido por suas fontes termais, gêiseres e uma incrível diversidade de vida selvagem, como ursos, lobos e bisões."},
-            { image: "Wyoming2", title: "Grand Teton National Park", description: "Famoso por suas montanhas imponentes, Grand Teton oferece trilhas deslumbrantes, lagos alpinos e oportunidades para escalada e atividades ao ar livre."},
-            { image: "Wyoming3", title: "Jackson Hole", description: "Uma famosa cidade de esqui cercada pelas Montanhas Teton, Jackson Hole também oferece atividades como caminhadas, rafting e uma charmosa cidade com arte e cultura vibrantes."},
-            { image: "Wyoming4", title: "Devils Tower", description: "Uma imponente formação rochosa e o primeiro monumento nacional dos Estados Unidos, Devil's Tower oferece trilhas ao redor da base e é um destino popular para escaladores."},
-            { image: "Wyoming5", title: "Bighorn Mountains", description: "Uma cadeia montanhosa perfeita para caminhadas, acampamentos e pesca, oferecendo paisagens espetaculares e uma rica biodiversidade."},
+            { image: Wyoming2, title: "Grand Teton National Park", description: "Famoso por suas montanhas imponentes, Grand Teton oferece trilhas deslumbrantes, lagos alpinos e oportunidades para escalada e atividades ao ar livre."},
+            { image: Wyoming3, title: "Jackson Hole", description: "Uma famosa cidade de esqui cercada pelas Montanhas Teton, Jackson Hole também oferece atividades como caminhadas, rafting e uma charmosa cidade com arte e cultura vibrantes."},
+            { image: Wyoming4, title: "Devils Tower", description: "Uma imponente formação rochosa e o primeiro monumento nacional dos Estados Unidos, Devil's Tower oferece trilhas ao redor da base e é um destino popular para escaladores."},
+            { image: Wyoming5, title: "Bighorn Mountains", description: "Uma cadeia montanhosa perfeita para caminhadas, acampamentos e pesca, oferecendo paisagens espetaculares e uma rica biodiversidade."},
         ],
     }                                                                                                                                   
 ]
