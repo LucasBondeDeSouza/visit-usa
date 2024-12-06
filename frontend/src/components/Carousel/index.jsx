@@ -16,6 +16,15 @@ export default () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    responsive: [
+      {
+        breakpoint: 768, // Para telas menores que 768px
+        settings: {
+          arrows: false, // Remove setas em telas pequenas, se necessário
+          dots: true,
+        },
+      },
+    ],
   };
 
   const slides = [
