@@ -2,6 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import states from "./statesData";
 import Card from "../Card";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+
 export default ({ setCurrentState }) => {
     const [visibleStates, setVisibleStates] = useState(5); // Exibe 5 estados inicialmente
     const refs = useRef([]);
@@ -70,7 +73,8 @@ export default ({ setCurrentState }) => {
             ))}
             {visibleStates < states.length && (
                 <button onClick={loadMoreStates} className="load-more">
-                    Show More
+                    
+                    <FontAwesomeIcon icon={faArrowDown} />
                 </button>
             )}
         </main>

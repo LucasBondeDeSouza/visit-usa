@@ -9,7 +9,6 @@
 
 body {
   overflow-x: hidden;
-  max-width: 100vw;
 }
 
 /* Start Map */
@@ -269,13 +268,27 @@ main {
 .load-more {
   display: flex;
   justify-self: center;
-  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
   font-size: 1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 50%;
   cursor: pointer;
+  animation: up-down 1.1s ease-in-out infinite;
+  transition: all 0.3s ease;
 }
 
+@keyframes up-down {
+  0%, 100% {
+    transform: translateY(0); /* Posição inicial e final */
+  }
+  50% {
+    transform: translateY(-10px); /* Move suavemente para cima */
+  }
+}
 /* End Main */
 
 @media screen and (max-width: 768px) {
@@ -354,8 +367,7 @@ main {
   }
 
   .load-more {
-    padding: 15px 10px;
-    font-size: .8rem;
+    font-size: .9rem;
   }
   /* End Main */
 }
