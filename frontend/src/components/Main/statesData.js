@@ -15,7 +15,7 @@ import Arizona3 from "../../public/images/arizona3.jpg"
 import Arizona4 from "../../public/images/arizona4.jpg"
 import Arizona5 from "../../public/images/arizona5.jpg"
 
-import Arkansas1 from "../../public/images/arkansas1.webp"
+import Arkansas1 from "../../public/images/arkansas1.jpg"
 import Arkansas2 from "../../public/images/arkansas2.jpg"
 import Arkansas3 from "../../public/images/arkansas3.jpg"
 import Arkansas4 from "../../public/images/arkansas4.jpg"

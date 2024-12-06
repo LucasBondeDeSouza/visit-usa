@@ -9,6 +9,7 @@
 
 body {
   overflow-x: hidden;
+  max-width: 100vw;
 }
 
 /* Start Map */
@@ -265,6 +266,16 @@ main {
 }
 /* End Card */
 
+.load-more {
+  display: flex;
+  justify-self: center;
+  padding: 20px 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 /* End Main */
 
 @media screen and (max-width: 768px) {
@@ -340,6 +351,11 @@ main {
 
   .state .cards .card .card-description p {
     font-size: .9rem;
+  }
+
+  .load-more {
+    padding: 15px 10px;
+    font-size: .8rem;
   }
   /* End Main */
 }
