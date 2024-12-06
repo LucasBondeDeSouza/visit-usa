@@ -266,6 +266,9 @@ main {
 /* End Card */
 
 .load-more {
+  background-color: #003f5c;
+  color: #fff;
+  font-weight: bold;
   display: flex;
   justify-self: center;
   justify-content: center;
@@ -273,7 +276,7 @@ main {
   padding: 10px;
   height: 50px;
   width: 50px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -286,7 +289,7 @@ main {
     transform: translateY(0); /* Posição inicial e final */
   }
   50% {
-    transform: translateY(-10px); /* Move suavemente para cima */
+    transform: translateY(-15px); /* Move suavemente para cima */
   }
 }
 /* End Main */
@@ -367,7 +370,7 @@ main {
   }
 
   .load-more {
-    font-size: .9rem;
+    font-size: 1rem;
   }
   /* End Main */
 }
