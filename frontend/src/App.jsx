@@ -8,13 +8,13 @@ import Main from "./components/Main";
 export default () => {
   const [currentState, setCurrentState] = useState("");
 
-  return (
-    <>
-      <Map currentState={currentState} />
+    return (
+      <>
+        <Map currentState={currentState} />
 
-      <Header />
-      <Carousel />
-      <Main setCurrentState={setCurrentState} />
-    </>
-  )
-}
+        <Header />
+        <Carousel />
+        <Main setCurrentState={setCurrentState} />
+      </>
+    )
+  }

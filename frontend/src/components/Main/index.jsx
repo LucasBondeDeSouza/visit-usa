@@ -1,4 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
+
+import AOS from "aos"
+import 'aos/dist/aos.css';
+
 import states from "./statesData";
 import Card from "../Card";
 
@@ -42,6 +46,10 @@ export default ({ setCurrentState }) => {
         });
     }, [visibleStates]);
 
+    useEffect(() => {
+        AOS.init({ duration: 1500 });
+    }, []);
+
     const loadMoreStates = () => {
         setVisibleStates((prevVisibleStates) => prevVisibleStates + 5); // Carrega 5 estados adicionais
     };
@@ -54,6 +62,7 @@ export default ({ setCurrentState }) => {
                     className="state"
                     ref={(el) => (refs.current[index] = el)}
                     data-state={state.name}
+                    data-aos="fade-up"
                 >
                     <div className="content">
                         <h1>{state.name}</h1>
