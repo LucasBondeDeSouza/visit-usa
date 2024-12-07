@@ -36,6 +36,7 @@ import Colorado5 from "../../public/images/colorado5.jpg"
 import Connecticut1 from "../../public/images/connecticut1.jpg"
 import Connecticut2 from "../../public/images/connecticut2.jpg"
 import Connecticut3 from "../../public/images/connecticut3.jpg"
+import Connecticut4 from "../../public/images/connecticut4.jpg"
 
 import Delaware1 from "../../public/images/delaware1.jpg"
 import Delaware2 from "../../public/images/delaware2.jpg"
@@ -75,6 +76,7 @@ import Illinois5 from "../../public/images/illinois5.jpg"
 import Iowa1 from "../../public/images/iowa1.jpg"
 import Iowa2 from "../../public/images/iowa2.jpg"
 import Iowa3 from "../../public/images/iowa3.jpg"
+import Iowa4 from "../../public/images/iowa4.jpg"
 
 import Kansas1 from "../../public/images/kansas1.jpg"
 import Kansas2 from "../../public/images/kansas2.jpg"
@@ -349,6 +351,7 @@ const states = [
             { image: Connecticut1, title: "Mystic Seaport", description: "Um museu histórico à beira-mar que preserva a rica tradição marítima de Connecticut, com navios antigos e exposições interativas."},
             { image: Connecticut2, title: "Mark Twain House & Museum", description: "Antiga residência do famoso autor Mark Twain, onde ele escreveu algumas de suas obras mais icônicas."},
             { image: Connecticut3, title: "Thimble Islands", description: "Um arquipélago encantador na costa de Connecticut, ideal para passeios de barco e relaxamento."},
+            { image: Connecticut4, title: "Yale University Art Gallery", description: "Uma das coleções de arte mais antigas e renomadas dos Estados Unidos, com obras que abrangem diferentes períodos e culturas."}
         ],
     },
     {
@@ -423,6 +426,7 @@ const states = [
             { image: Iowa1, title: "Des Moines", description: "A capital do estado, conhecida por seu centro vibrante, museus, eventos culturais, que celebra a vida rural do estado."},
             { image: Iowa2, title: "Maquoketa Caves State Park", description: "Famoso por suas impressionantes cavernas de calcário, este parque oferece trilhas e oportunidades para exploração."},
             { image: Iowa3, title: "The Bridges of Madison County", description: "Inspirado no romance famoso, este local é conhecido por suas pontes cobertas históricas e pitorescas."},
+            { image: Iowa4, title: "Field of Dreams Movie Site", description: "Local icônico do famoso filme 'Field of Dreams', este campo de beisebol atrai fãs e oferece tours e eventos especiais."}
         ],
     },    
     {
